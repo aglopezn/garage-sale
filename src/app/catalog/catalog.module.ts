@@ -4,6 +4,9 @@ import { CommonModule } from '@angular/common';
 import { CatalogRoutingModule } from './catalog-routing.module';
 import { CatalogComponent } from './catalog/catalog.component';
 import { PrimeModule } from '../prime/prime.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProductService } from './catalog/products.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -13,8 +16,14 @@ import { PrimeModule } from '../prime/prime.module';
   imports: [
     CommonModule,
     CatalogRoutingModule,
+    FormsModule,
+    HttpClientModule,
     PrimeModule,
+    ReactiveFormsModule,
   ],
-  exports: []
+  exports: [],
+  providers: [
+    ProductService,
+  ]
 })
 export class CatalogModule { }

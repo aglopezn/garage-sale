@@ -14,10 +14,7 @@ export class NavbarComponent implements OnInit {
   
   ngOnInit(): void {
     this.items = [
-      {label: 'Catálogo', icon: 'pi pi-tags'},
-      // {label: 'Delete', icon: 'pi pi-times'},
-      // {label: 'Angular.io', icon: 'pi pi-info', url: 'http://angular.io'},
-      // {label: 'Setup', icon: 'pi pi-cog', routerLink: ['/setup']}
+      {label: 'Catálogo', icon: 'pi pi-tags', routerLink: '/catalog'},
   ];
   }
 
