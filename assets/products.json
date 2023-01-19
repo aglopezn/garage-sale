@@ -13,6 +13,30 @@
 			"rating": 5
 		},
 		{
+			"id": "1022",
+			"code": "ouKw9DTDB",
+			"name": "Bicicleta GW Jaguar Rin 29\"",
+			"description": "GW Jaguar Rin 29\", freno disco mecánico, suspensión con bloqueo, cambios 7x3 Shimano, soporte caramañola GW, candado bicicleta, sillin y pedales GW, Marco talla 19 (L).",
+			"image": "gw-jaguar-main.jpg",
+			"price": 750000,
+			"category": "Deportes",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 5
+		},
+		{
+			"id": "1023",
+			"code": "sRr9bLz5S",
+			"name": "Bicicleta Venzo Amphion Rin 29\"",
+			"description": "Venzo Amphion Rin 29\", freno disco hidráulico, suspensión con bloqueo, cambios 8x3 Shimano-Sunrise, soporte caramañola, candado bicicleta, pedales aluminio, Marco talla S.",
+			"image": "venzo-amphion-main.jpg",
+			"price": 900000,
+			"category": "Deportes",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 5
+		},
+		{
 			"id": "1001",
 			"code": "nvklal433",
 			"name": "Comedor 4 puestos Wengue",
@@ -248,6 +272,18 @@
 			"image": "gamer-bundle-main.jpg",
 			"price": 70000,
 			"category": "Tecnología",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 5
+		},
+		{
+			"id": "1021",
+			"code": "tJ29NxGdj",
+			"name": "Maleta para mascotas",
+			"description": "Maleta tipo burbuja para mascotas.",
+			"image": "bag-cat-main.jpg",
+			"price": 70000,
+			"category": "Mascotas",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5
