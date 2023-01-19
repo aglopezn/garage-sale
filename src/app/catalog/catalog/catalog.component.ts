@@ -59,4 +59,10 @@ export class CatalogComponent {
     if (inventoryStatus === INVENTORY_STATUS.available.code) return INVENTORY_STATUS.available.class;
     return INVENTORY_STATUS.unavailable.class;
   }
+
+  getContactLink(product: Product) {
+    const message = `Hola. Me interesa el producto ${product.name} que tienes en venta.`
+    const encoded = encodeURIComponent(message);
+    return `https://wa.me/573195485338?text=${encoded}`;
+  }
 }

@@ -51,7 +51,8 @@
   margin: 0.5em;
   border: 1px solid #dee2e6;
 }
-:host ::ng-deep .product-grid-item .product-grid-item-top, :host ::ng-deep .product-grid-item .product-grid-item-bottom {
+:host ::ng-deep .product-grid-item .product-grid-item-top, 
+:host ::ng-deep .product-grid-item .product-grid-item-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,6 +91,10 @@
   color: #256029;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 576px) {
   :host ::ng-deep .product-list-item {
     flex-direction: column;
@@ -111,9 +116,12 @@
  }
   :host ::ng-deep .product-list-item .product-list-action {
     margin-top: 2rem;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
  }
+
+  :host ::ng-deep .product-grid-item .product-grid-item-bottom {
+    flex-direction: column;
+  }
 }

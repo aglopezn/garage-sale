@@ -23,14 +23,23 @@
                   </div>
                   <div class="product-list-action">
                       <span class="product-price">{{product.price | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                      <p-button icon="pi pi-shopping-cart" label="Add to Cart" [disabled]="product.inventoryStatus === 'OUTOFSTOCK'"></p-button>
+                      <a 
+                        target="_blank"
+                        [href]="getContactLink(product)"
+                        pButton 
+                        icon="pi pi-shopping-cart" 
+                        label="Me interesa">
+                      </a>
                       <span [class]="'product-badge status-' + getStockStatus(product.inventoryStatus)">{{product.inventoryStatus}}</span>
+                  </div>
+                  <div class="product-list-action">   
+                    
                   </div>
               </div>
           </div>
       </ng-template>
       <ng-template let-product pTemplate="gridItem">
-          <div class="col-12 md:col-4">
+          <div class="col-12 md:col-6 lg:col-4">
               <div class="product-grid-item card">
                   <div class="product-grid-item-top">
                       <div>
@@ -47,7 +56,13 @@
                   </div>
                   <div class="product-grid-item-bottom">
                       <span class="product-price">{{product.price | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                      <p-button icon="pi pi-shopping-cart" [disabled]="product.inventoryStatus === 'OUTOFSTOCK'"></p-button>
+                      <a 
+                        target="_blank"
+                        [href]="getContactLink(product)"
+                        pButton 
+                        icon="pi pi-shopping-cart" 
+                        label="Me interesa">
+                      </a>
                   </div>
               </div>
           </div>
