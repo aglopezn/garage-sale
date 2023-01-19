@@ -95,6 +95,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/garage-sale/",
+            "noSilent": true
+          }
         }
       }
     }
