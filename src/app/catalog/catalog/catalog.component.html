@@ -28,7 +28,8 @@
                         [href]="getContactLink(product)"
                         pButton 
                         icon="pi pi-shopping-cart" 
-                        label="Me interesa">
+                        label="Me interesa"
+                        [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
                       </a>
                       <span [class]="'product-badge status-' + getStockStatus(product.inventoryStatus)">{{product.inventoryStatus}}</span>
                   </div>
@@ -61,7 +62,8 @@
                         [href]="getContactLink(product)"
                         pButton 
                         icon="pi pi-shopping-cart" 
-                        label="Me interesa">
+                        label="Me interesa"
+                        [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
                       </a>
                   </div>
               </div>

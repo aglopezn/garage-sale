@@ -95,6 +95,12 @@ a {
   text-decoration: none;
 }
 
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: default;
+}
+
 @media screen and (max-width: 576px) {
   :host ::ng-deep .product-list-item {
     flex-direction: column;
