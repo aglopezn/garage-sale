@@ -35,8 +35,8 @@ export class CatalogComponent {
       this.productService.getProducts().then(data => this.products = data);
 
       this.sortOptions = [
-          {label: 'Price High to Low', value: '!price'},
-          {label: 'Price Low to High', value: 'price'}
+          {label: 'Precio más alto primero', value: '!price'},
+          {label: 'Precio más bajo primero', value: 'price'}
       ];
 
       this.primengConfig.ripple = true;
@@ -64,5 +64,10 @@ export class CatalogComponent {
     const message = `Hola. Me interesa el producto ${product.name} que tienes en venta.`
     const encoded = encodeURIComponent(message);
     return `https://wa.me/573195485338?text=${encoded}`;
+  }
+
+  getImageSrc(product: Product)  {
+    if (!product.image) return 'assets/images/primeng.svg';
+    return `assets/images/product/${product.image}`;
   }
 }
