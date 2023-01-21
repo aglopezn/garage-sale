@@ -54,7 +54,7 @@ export class ProductService {
         return this.http.get<any>('assets/products.json')
         .toPromise()
         .then(res => <Product[]>res.data)
-        .then(data => { return data; });
+        .then(data => { return data.sort(this.byAvailability())});
     }
 
     getProductsWithOrdersSmall() {
@@ -109,5 +109,9 @@ export class ProductService {
 
     generateRating() {
         return Math.floor(Math.random() * Math.floor(5)+1);
+    }
+
+    private byAvailability() {
+        return (a, b) => a.inventoryStatus.localeCompare(b.inventoryStatus)*-1;
     }
 }
