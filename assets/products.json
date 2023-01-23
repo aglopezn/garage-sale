@@ -57,7 +57,7 @@
 			"price": 200000,
 			"category": "Electrodomésticos",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3
 		},
 		{
@@ -94,30 +94,6 @@
 			"category": "Muebles",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
-			"rating": 5
-		},
-		{
-			"id": "1006",
-			"code": "bib36pfvm",
-			"name": "Escritorio en vidrio negro",
-			"description": "Escritorio de estructura metálica con superficie en vidrio color negro. Dimensiones 105x58x74 centímetros",
-			"image": "glass-desk-main.jpg",
-			"price": 150000,
-			"category": "Muebles",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 4
-		},
-		{
-			"id": "1007",
-			"code": "mbvjkgip5",
-			"name": "Silla Oficina",
-			"description": "Silla ergonómica con altura regulable, apoyabrazos ajustable, respaldo reclinable, giratoria con 5 ruedas, soporte para la cabeza y tapizado en espuma y tela.",
-			"image": "office-chair-main.jpg",
-			"price": 200000,
-			"category": "Muebles",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
@@ -165,7 +141,7 @@
 			"price": 350000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 4
 		},
 		{
@@ -193,18 +169,6 @@
 			"rating": 5
 		},
 		{
-			"id": "1014",
-			"code": "waas1x2as",
-			"name": "Colchón Inflable Doble",
-			"description": "Colchón inflable color azul con inflador sin usar. Dimensiones 191x137x22 centímetros.",
-			"image": "colchon-main.jpg",
-			"price": 75000,
-			"category": "Hogar",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5
-		},
-		{
 			"id": "1015",
 			"code": "vb34btbg5",
 			"name": "Kit Taladro Percutor 600W ",
@@ -213,7 +177,7 @@
 			"price": 160000,
 			"category": "Hogar",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
