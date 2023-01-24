@@ -72,6 +72,6 @@ export class CatalogComponent {
 
   getImageSrc(product: Product)  {
     if (!product.image) return 'assets/images/primeng.svg';
-    return `assets/images/product/${product.image}`;
+    return `assets/images/product/compressed/${product.image}`;
   }
 }
