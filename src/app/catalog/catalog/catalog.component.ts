@@ -35,8 +35,12 @@ export class CatalogComponent {
       this.productService.getProducts().then(data => this.products = data);
 
       this.sortOptions = [
-          {label: 'Precio más alto primero', value: '!price'},
-          {label: 'Precio más bajo primero', value: 'price'}
+          {label: 'Precio más bajo primero', value: 'currentPrice'},
+          {label: 'Precio más alto primero', value: '!currentPrice'},
+          {label: 'Nombre A - Z', value: 'name'},
+          {label: 'Nombre Z - A', value: '!name'},
+          // {label: 'Categoría A - Z', value: 'category'},
+          // {label: 'Categoría Z - A', value: '!category'},
       ];
 
       this.primengConfig.ripple = true;
