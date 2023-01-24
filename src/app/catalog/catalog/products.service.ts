@@ -54,7 +54,15 @@ export class ProductService {
         return this.http.get<any>('assets/products.json')
         .toPromise()
         .then(res => <Product[]>res.data)
-        .then(data => { return data.sort(this.byAvailability())});
+        .then(data => { 
+            const mapped = data.map(product => ({
+                ...product,
+                discount: this.getDiscount(product),
+            }))
+            mapped.sort(this.byDiscount());
+            mapped.sort(this.byAvailability());
+            return mapped;
+        });
     }
 
     getProductsWithOrdersSmall() {
@@ -69,7 +77,7 @@ export class ProductService {
             id: this.generateId(),
             name: this.generateName(),
             description: "Product Description",
-            price: this.generatePrice(),
+            currentPrice: this.generatePrice(),
             quantity: this.generateQuantity(),
             category: "Product Category",
             inventoryStatus: this.generateStatus(),
@@ -113,5 +121,13 @@ export class ProductService {
 
     private byAvailability() {
         return (a, b) => a.inventoryStatus.localeCompare(b.inventoryStatus)*-1;
+    }
+
+    private byDiscount() {
+        return (a, b) => b.discount - a.discount;
+    }
+
+    private getDiscount(product: Product): number {
+        return (product.originalPrice - product.currentPrice) / product.originalPrice;
     }
 }

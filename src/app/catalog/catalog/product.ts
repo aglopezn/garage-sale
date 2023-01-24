@@ -3,7 +3,9 @@ export interface Product {
   code?:string;
   name?:string;
   description?:string;
-  price?:number;
+  currentPrice?:number;
+  originalPrice?:number;
+  discount?: number;
   quantity?:number;
   inventoryStatus?:string;
   category?:string;
