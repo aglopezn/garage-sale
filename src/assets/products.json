@@ -480,6 +480,19 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5
+		},
+		{
+			"id": "1040",
+			"code": "4iVFAMBbB",
+			"name": "Candado Freno De Disco Con Alarma Para Moto",
+			"description": "1 Candado para freno disco con 2 Llaves, como nuevo en empaque original.",
+			"image": "moto-alarma-main-min.jpg",
+			"currentPrice": 30000,
+			"originalPrice": 50000,
+			"category": "Moto",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 5
 		}
 		
 	]
