@@ -361,7 +361,7 @@
 			"originalPrice": 35000,
 			"category": "Deporte",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
