@@ -88,7 +88,7 @@
 			"originalPrice": 190000,
 			"category": "Muebles",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
@@ -257,7 +257,7 @@
 			"originalPrice": 55000,
 			"category": "Oficina",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3
 		},
 		{
@@ -322,7 +322,7 @@
 			"originalPrice": 110000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 4
 		},
 		{
