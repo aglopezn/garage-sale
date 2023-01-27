@@ -53,19 +53,6 @@
 			"rating": 5
 		},
 		{
-			"id": "1003",
-			"code": "244wgerg2",
-			"name": "Freidora de aire Schaffhausen",
-			"description": "Freidora en buen estado.",
-			"image": "air-fryer-main-min.jpg",
-			"currentPrice": 180000,
-			"originalPrice": 300000,
-			"category": "Electrodomésticos",
-			"quantity": 0,
-			"inventoryStatus": "Agotado",
-			"rating": 5
-		},
-		{
 			"id": "1004",
 			"code": "h456wer53",
 			"name": "Alacena Wengue",
@@ -153,7 +140,7 @@
 			"originalPrice": 70000,
 			"category": "Hogar",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
@@ -205,7 +192,7 @@
 			"originalPrice": 180000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5
 		},
 		{
@@ -270,7 +257,7 @@
 			"originalPrice": 70000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 4
 		},
 		{
