@@ -1,0 +1,30 @@
+.product-card-price {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.promotion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prev-price {
+  font-size: 1rem;
+  color: var(--red-600);
+  text-decoration: line-through;
+}
+
+.percentage-off {
+  background: #FFCDD2;
+  color: #c63737;
+}
+
+.current-price {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

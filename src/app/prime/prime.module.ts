@@ -8,6 +8,7 @@ import { MenubarModule } from 'primeng/menubar';
 import { RatingModule } from 'primeng/rating';
 import { RippleModule } from 'primeng/ripple';
 import { SplitButtonModule } from 'primeng/splitbutton';
+import { TagModule } from 'primeng/tag';
 import { ToolbarModule } from 'primeng/toolbar';
 
 
@@ -24,6 +25,7 @@ import { ToolbarModule } from 'primeng/toolbar';
     RatingModule,
     RippleModule,
     SplitButtonModule,
+    TagModule, 
     ToolbarModule,
   ]
 })

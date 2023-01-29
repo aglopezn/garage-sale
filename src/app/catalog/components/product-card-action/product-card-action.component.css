@@ -1,0 +1,15 @@
+.disabled {
+  pointer-events: none;
+  opacity: 0.6;
+  cursor: default;
+}
+
+.product-card-action {
+  width: 100%;
+  margin-top: 1.5rem;
+  text-decoration: none;
+}
+
+.product-card-action:hover {
+  opacity: 0.8;
+}
