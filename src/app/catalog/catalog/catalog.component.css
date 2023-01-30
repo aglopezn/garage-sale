@@ -106,6 +106,21 @@ a {
   cursor: default;
 }
 
+.product-image-container {
+  overflow: hidden;
+}
+
+.product-image {
+  transition: transform 0.5s ease;
+} 
+
+.product-image:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
 @media screen and (max-width: 576px) {
   :host ::ng-deep .product-list-item {
     flex-direction: column;

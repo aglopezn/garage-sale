@@ -11,6 +11,7 @@ import { ProductCardComponent } from './components/product-card/product-card.com
 import { ProductCardHeaderComponent } from './components/product-card-header/product-card-header.component';
 import { ProductCardPriceComponent } from './components/product-card-price/product-card-price.component';
 import { ProductConditionComponent } from './components/product-condition/product-condition.component';
+import { ProductModalComponent } from './components/product-modal/product-modal.component';
 import { ProductService } from './catalog/products.service';
 
 
@@ -22,6 +23,7 @@ import { ProductService } from './catalog/products.service';
     ProductCardPriceComponent,
     ProductCardActionComponent,
     ProductConditionComponent,
+    ProductModalComponent,
   ],
   imports: [
     CommonModule,

@@ -30,10 +30,15 @@ export class CatalogComponent {
 
   sortKey: any;
 
+  productSelected: Product;
+  
+  showModal: boolean = false;
+
   constructor(private productService: ProductService, private primengConfig: PrimeNGConfig) { }
 
   ngOnInit() {
-      this.productService.getProducts().then(data => this.products = data);
+      this.productService.getProducts()
+        .then(data => this.products = data);
 
       this.sortOptions = [
           {label: 'Precio más bajo primero', value: 'currentPrice'},
@@ -58,6 +63,11 @@ export class CatalogComponent {
           this.sortOrder = 1;
           this.sortField = value;
       }
+  }
+
+  onOpenProductModal(product) {
+    this.productSelected = product;
+    this.showModal = true;
   }
 
   getStockStatus(inventoryStatus) {

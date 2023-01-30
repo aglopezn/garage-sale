@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
+import { DialogModule } from 'primeng/dialog';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
@@ -19,6 +20,7 @@ import { ToolbarModule } from 'primeng/toolbar';
     ButtonModule,
     CardModule,
     DataViewModule,
+    DialogModule,
     DropdownModule,
     InputTextModule,
     MenubarModule,

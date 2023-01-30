@@ -1,0 +1,23 @@
+<p-dialog 
+  [header]="product?.name" 
+  [visible]="visible" 
+  (visibleChange)="onVisibleChange($event)"
+  [modal]="true" 
+  [style]="style" 
+  [breakpoints]="breakpoints"
+  [baseZIndex]="10000"
+  [draggable]="false" 
+  [resizable]="false" 
+  [closeOnEscape]="true" 
+  [dismissableMask]="true">
+  <div class="product-modal-image-container">
+    <img class="product-modal-image" [src]="getImageSrc(product)" [alt]="product?.name"> 
+  </div>
+  <ng-template pTemplate="footer">
+    <app-product-card-action
+      label="Me interesa"
+      [disabled]="product?.inventoryStatus === 'Agotado'"
+      [href]="getContactLink(product)">
+    </app-product-card-action>
+  </ng-template>
+</p-dialog>
