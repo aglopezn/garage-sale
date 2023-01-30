@@ -8,11 +8,12 @@ import { Component, Input } from '@angular/core';
 export class ProductCardComponent {
 
   @Input() style: { [klass: string]: any; };
-
+  @Input() disabled: boolean = false;
 
   containerClass() {
     return {
       'product-card': true,
+      'disabled': this.disabled,
     }
   }
 }

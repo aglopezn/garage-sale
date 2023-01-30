@@ -1,8 +1,22 @@
+.condition-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.condition-label {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
 .product-condition {
   display: block;
   height: auto;
   overflow: hidden;
   width: 100%;
+  margin: 0;
 }
 
 .product-condition__level {
@@ -12,7 +26,6 @@
   height: 8px;
   width: 33%;
   opacity: 0.3;
-  /* margin-top: 2px; */
 }
 
 .product-condition__level--1 {

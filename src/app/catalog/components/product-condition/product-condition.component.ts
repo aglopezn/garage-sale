@@ -6,6 +6,12 @@ export enum ConditionLevel {
   Bad = '3',
 }
 
+const conditionLabelMapping = {
+  [ConditionLevel.Good]    : 'Estado: Bueno',
+  [ConditionLevel.Regular] : 'Estado: Desgastado',
+  [ConditionLevel.Bad]     : 'Estado: Malo',
+}
+
 @Component({
   selector: 'app-product-condition',
   templateUrl: './product-condition.component.html',
@@ -15,5 +21,8 @@ export class ProductConditionComponent {
 
   @Input() condition: ConditionLevel;
   readonly ConditionLevel = ConditionLevel;
-  
+
+  getConditionLabel() {
+    return conditionLabelMapping[this.condition];
+  }
 }

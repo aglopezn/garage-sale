@@ -1,5 +1,8 @@
-<ul class="product-condition">
-  <li class="product-condition__level product-condition__level--1" [ngClass]="{'selected': condition === ConditionLevel.Bad}"></li>
-  <li class="product-condition__level product-condition__level--2" [ngClass]="{'selected': condition === ConditionLevel.Regular}"></li>
-  <li class="product-condition__level product-condition__level--3" [ngClass]="{'selected': condition === ConditionLevel.Good}"></li>
-</ul>
+<div class="condition-container">
+  <p class="condition-label">{{getConditionLabel()}}</p>
+  <ul class="product-condition">
+    <li class="product-condition__level product-condition__level--1" [ngClass]="{'selected': condition === ConditionLevel.Bad}"></li>
+    <li class="product-condition__level product-condition__level--2" [ngClass]="{'selected': condition === ConditionLevel.Regular}"></li>
+    <li class="product-condition__level product-condition__level--3" [ngClass]="{'selected': condition === ConditionLevel.Good}"></li>
+  </ul>
+</div>
