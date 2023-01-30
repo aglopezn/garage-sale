@@ -1,0 +1,12 @@
+.product-modal-image-container {
+  overflow: hidden;
+}
+
+.product-modal-image {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.product-modal-image:hover {
+  transform: scale(1.5);
+}

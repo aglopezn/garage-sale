@@ -1,0 +1,9 @@
+<div class="product-card-price">
+  <div *ngIf="previousPrice" class="promotion-container">
+    <span class="prev-price">{{previousPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
+    <p-tag  *ngIf="percentOff" styleClass="danger" [rounded]="true">{{percentOff | percent:'1.0-0':'es-CO'}} OFF</p-tag>
+  </div>
+  <div class="current-price">
+    <span>{{currentPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
+  </div>
+</div>

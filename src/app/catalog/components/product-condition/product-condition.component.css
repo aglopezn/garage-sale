@@ -1,0 +1,45 @@
+.condition-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.condition-label {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.product-condition {
+  display: block;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+.product-condition__level {
+  list-style: none;
+  border-left: 6px solid #fff;
+  float: left;
+  height: 8px;
+  width: 33%;
+  opacity: 0.3;
+}
+
+.product-condition__level--1 {
+  background: #ff605a;
+}
+
+.product-condition__level--2 {
+  background: #fff044;
+}
+
+.product-condition__level--3 {
+  background: #39b54a;
+}
+
+.product-condition__level.selected {
+  opacity: 1;
+}

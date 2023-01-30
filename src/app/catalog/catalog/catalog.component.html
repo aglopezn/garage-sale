@@ -1,99 +1,92 @@
-<div class="card m-3">
-  <p-dataView #dv [value]="products" [paginator]="true" [rows]="15" filterBy="name"
-      [sortField]="sortField" [sortOrder]="sortOrder" layout="grid">
-      <ng-template pTemplate="header">
-          <div class="flex flex-column md:flex-row md:justify-content-between">
-              <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Ordenar" (onChange)="onSortChange($event)" styleClass="mb-2 md:mb-0"></p-dropdown>
-              <span class="p-input-icon-left mb-2 md:mb-0">
-                  <i class="pi pi-search"></i>
-                  <input type="search" pInputText placeholder="Search by Name" (input)="dv.filter($event.target['value'])">
-              </span>
-              <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
-          </div>
-      </ng-template>
-      <ng-template let-product pTemplate="listItem">
-          <div class="col-12">
-              <div class="product-list-item">
-                  <img [src]="getImageSrc(product)" alt="" [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
-                  <div class="product-list-detail">
-                      <div class="product-name">{{product.name}}</div>
-                      <div class="product-description">{{product.description}}</div>
-                      <p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
-                      <i class="pi pi-tag product-category-icon"></i><span class="product-category">{{product.category}}</span>
-                      <br>
-                      <span class="tag-off">
-                        <i class="pi pi-percentage product-category-icon"></i>
-                        <span class="product-category">{{product.discount | percent:'1.0-0':'es-CO'}}&nbsp;Off</span>
-                      </span>
+<p-dataView #dv [value]="products" [paginator]="true" [rows]="15" filterBy="name"
+  [sortField]="sortField" [sortOrder]="sortOrder" layout="grid" [style]="{'margin': '0.5rem 0'}">
+  <ng-template pTemplate="header">
+    <div class="flex flex-column md:flex-row md:justify-content-between">
+        <p-dropdown [options]="sortOptions" [(ngModel)]="sortKey" placeholder="Ordenar" (onChange)="onSortChange($event)" styleClass="mb-2 md:mb-0"></p-dropdown>
+        <span class="p-input-icon-left mb-2 md:mb-0">
+          <i class="pi pi-search"></i>
+          <input type="search" pInputText placeholder="Search by Name" (input)="dv.filter($event.target['value'])">
+        </span>
+        <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+    </div>
+  </ng-template>
+
+  <!-- LIST ITEM -->
+  <ng-template let-product pTemplate="listItem">
+      <div class="col-12">
+          <div class="product-list-item">
+              <img [src]="getImageSrc(product)" alt="" [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
+              <div class="product-list-detail">
+                  <div class="product-name">{{product.name}}</div>
+                  <div class="product-description">{{product.description}}</div>
+                  <p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
+                  <i class="pi pi-tag product-category-icon"></i><span class="product-category">{{product.category}}</span>
+                  <br>
+                  <span class="tag-off">
+                    <i class="pi pi-percentage product-category-icon"></i>
+                    <span class="product-category">{{product.discount | percent:'1.0-0':'es-CO'}}&nbsp;Off</span>
+                  </span>
+              </div>
+              <div class="product-list-action">
+                  <div class="product-price-container product-price-container--column">
+                    <div class="product-price">
+                      <span class="price-label price-label--outdated">Precio Nuevo: </span> 
+                      <span class="product-price--outdated">{{product.originalPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
+                    </div>
+                    <div class="product-price">
+                      <span class="price-label">Precio Actual: </span> 
+                      <span>{{product.currentPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
+                    </div>
                   </div>
-                  <div class="product-list-action">
-                      <div class="product-price-container product-price-container--column">
-                        <div class="product-price">
-                          <span class="price-label price-label--outdated">Precio Nuevo: </span> 
-                          <span class="product-price--outdated">{{product.originalPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                        </div>
-                        <div class="product-price">
-                          <span class="price-label">Precio Actual: </span> 
-                          <span>{{product.currentPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                        </div>
-                      </div>
-                      <a 
-                        target="_blank"
-                        [href]="getContactLink(product)"
-                        pButton 
-                        icon="pi pi-shopping-cart" 
-                        label="Me interesa"
-                        [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
-                      </a>
-                      <span [class]="'product-badge status-' + getStockStatus(product.inventoryStatus)">{{product.inventoryStatus}}</span>
-                  </div>
-                  <div class="product-list-action">   
-                    
-                  </div>
+                  <a 
+                    target="_blank"
+                    [href]="getContactLink(product)"
+                    pButton 
+                    icon="pi pi-shopping-cart" 
+                    label="Me interesa"
+                    [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
+                  </a>
+                  <span [class]="'product-badge status-' + getStockStatus(product.inventoryStatus)">{{product.inventoryStatus}}</span>
+              </div>
+              <div class="product-list-action">   
+                
               </div>
           </div>
-      </ng-template>
-      <ng-template let-product pTemplate="gridItem">
-          <div class="col-12 md:col-6 lg:col-4">
-              <div class="product-grid-item card">
-                  <div class="product-grid-item-top">
-                      <div>
-                          <i class="pi pi-tag product-category-icon"></i>
-                          <span class="product-category">{{product.category}}</span>
-                      </div>
-                      <div class="tag-off">
-                          <i class="pi pi-percentage product-category-icon"></i>
-                          <span class="product-category">{{product.discount | percent:'1.0-0':'es-CO'}}&nbsp;Off</span>
-                      </div>
-                      <span [class]="'product-badge status-' + getStockStatus(product.inventoryStatus)">{{product.inventoryStatus}}</span>
-                  </div>
-                  <div class="product-grid-item-content">
-                      <img [src]="getImageSrc(product)" alt="" [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
-                      <div class="product-name">{{product.name}}</div>
-                      <div class="product-description">{{product.description}}</div>
-                      <p-rating [ngModel]="product.rating" [readonly]="true" [cancel]="false"></p-rating>
-                  </div>
-                  <div class="product-grid-item-bottom">
-                      <div class="product-price-container">
-                        <div class="product-price">
-                          <span class="price-label price-label--outdated">Precio Nuevo: </span> 
-                          <span class="product-price--outdated">{{product.originalPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                        </div>
-                        <div class="product-price">
-                          <span class="price-label">Precio Actual: </span> 
-                          <span>{{product.currentPrice | currency:'COP':'symbol-narrow':'1.0-0':'es-CO'}}</span>
-                        </div>
-                      </div>
-                      <a 
-                        target="_blank"
-                        [href]="getContactLink(product)"
-                        pButton 
-                        icon="pi pi-shopping-cart" 
-                        label="Me interesa"
-                        [ngClass]="{'disabled': product.inventoryStatus === 'Agotado'}">
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </ng-template>
-  </p-dataView>
+      </div>
+  </ng-template>
+
+  <!-- GRID ITEM -->
+  <ng-template let-product pTemplate="gridItem">
+    <div class="col-12 md:col-6 lg:col-4">
+      <app-product-card 
+        [disabled]="product.inventoryStatus === 'Agotado'" 
+        [style]="{'margin': '0.5rem'}">
+        <div class="product-image-container" (click)="onOpenProductModal(product)">
+          <img class="product-image" [src]="getImageSrc(product)" [alt]="product.name"> 
+        </div>
+        <app-product-card-header
+          [title]='product.name'
+          [availability]='product.inventoryStatus'
+          [conditionLevel]='getCondition(product)'>
+        </app-product-card-header>
+        <app-product-card-price
+          [previousPrice]="product.originalPrice"
+          [percentOff]="product.discount"
+          [currentPrice]="product.currentPrice">
+        </app-product-card-price>
+        <app-product-card-action
+          label="Me interesa"
+          [disabled]="product.inventoryStatus === 'Agotado'"
+          [href]="getContactLink(product)">
+        </app-product-card-action>
+      </app-product-card>
+    </div>
+  </ng-template>
+</p-dataView>
+
+<app-product-modal 
+  [style]="{width: '50vw'}" 
+  [breakpoints]="{'960px': '75vw', '640px': '100vw'}" 
+  [product]="productSelected" 
+  [(visible)]="showModal">
+</app-product-modal>

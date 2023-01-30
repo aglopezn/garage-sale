@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { PrimeNGConfig, SelectItem } from 'primeng/api';
+import { ConditionLevel } from '../components/product-condition/product-condition.component';
 import { Product } from './product';
 import { ProductService } from './products.service';
 
@@ -29,10 +30,15 @@ export class CatalogComponent {
 
   sortKey: any;
 
+  productSelected: Product;
+  
+  showModal: boolean = false;
+
   constructor(private productService: ProductService, private primengConfig: PrimeNGConfig) { }
 
   ngOnInit() {
-      this.productService.getProducts().then(data => this.products = data);
+      this.productService.getProducts()
+        .then(data => this.products = data);
 
       this.sortOptions = [
           {label: 'Precio más bajo primero', value: 'currentPrice'},
@@ -59,6 +65,11 @@ export class CatalogComponent {
       }
   }
 
+  onOpenProductModal(product) {
+    this.productSelected = product;
+    this.showModal = true;
+  }
+
   getStockStatus(inventoryStatus) {
     if (inventoryStatus === INVENTORY_STATUS.available.code) return INVENTORY_STATUS.available.class;
     return INVENTORY_STATUS.unavailable.class;
@@ -73,5 +84,12 @@ export class CatalogComponent {
   getImageSrc(product: Product)  {
     if (!product.image) return 'assets/images/primeng.svg';
     return `assets/images/product/compressed/${product.image}`;
+  }
+
+  getCondition(product: Product) {
+    if (product.rating === 3) return ConditionLevel.Good;
+    if (product.rating === 2) return ConditionLevel.Regular;
+    if (product.rating === 1) return ConditionLevel.Bad;
+    return ConditionLevel.Good;
   }
 }
