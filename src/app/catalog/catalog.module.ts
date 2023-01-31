@@ -12,7 +12,7 @@ import { ProductCardHeaderComponent } from './components/product-card-header/pro
 import { ProductCardPriceComponent } from './components/product-card-price/product-card-price.component';
 import { ProductConditionComponent } from './components/product-condition/product-condition.component';
 import { ProductModalComponent } from './components/product-modal/product-modal.component';
-import { ProductService } from './catalog/products.service';
+import { ProductService } from './services/products.service';
 
 
 @NgModule({

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { Product } from './product';
+import { Product } from '../catalog/product';
 
 @Injectable()
 export class ProductService {
@@ -60,6 +60,7 @@ export class ProductService {
                 discount: this.getDiscount(product),
             }))
             mapped.sort(this.byDiscount());
+            mapped.sort(this.byPriority());
             mapped.sort(this.byAvailability());
             return mapped;
         });
@@ -126,6 +127,10 @@ export class ProductService {
     private byDiscount() {
         return (a, b) => b.discount - a.discount;
     }
+
+    private byPriority() {
+        return (a, b) => b.priority - a.priority;
+    };
 
     private getDiscount(product: Product): number {
         return (product.originalPrice - product.currentPrice) / product.originalPrice;

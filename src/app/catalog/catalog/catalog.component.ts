@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { PrimeNGConfig, SelectItem } from 'primeng/api';
 import { ConditionLevel } from '../components/product-condition/product-condition.component';
 import { Product } from './product';
-import { ProductService } from './products.service';
+import { ProductService } from '../services/products.service';
 
 const INVENTORY_STATUS = {
   available: {
@@ -31,7 +31,7 @@ export class CatalogComponent {
   sortKey: any;
 
   productSelected: Product;
-  
+
   showModal: boolean = false;
 
   constructor(private productService: ProductService, private primengConfig: PrimeNGConfig) { }
@@ -51,7 +51,7 @@ export class CatalogComponent {
 
       this.primengConfig.ripple = true;
   }
-  
+
   onSortChange(event) {
       let value = event.value;
 
