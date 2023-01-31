@@ -1,0 +1,14 @@
+<p-galleria 
+  [value]="images" 
+  [responsiveOptions]="responsiveOptions" 
+  [numVisible]="5"
+  [circular]="true" 
+  [showItemNavigators]="true" 
+  [showThumbnails]="false" 
+  [showIndicators]="true" 
+  [showItemNavigatorsOnHover]="true"
+  [showIndicatorsOnItem]="true"> 
+  <ng-template pTemplate="item" let-item>
+      <img [src]="item" style="display: block;" />
+  </ng-template>
+</p-galleria>

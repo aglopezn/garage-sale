@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { CatalogRoutingModule } from './catalog-routing.module';
 import { CatalogComponent } from './catalog/catalog.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { GalleriaComponent } from './components/galleria/galleria.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PrimeModule } from '../prime/prime.module';
 import { ProductCardActionComponent } from './components/product-card-action/product-card-action.component';
@@ -18,6 +19,7 @@ import { ProductService } from './services/products.service';
 @NgModule({
   declarations: [
     CatalogComponent,
+    GalleriaComponent,
     ProductCardComponent,
     ProductCardHeaderComponent,
     ProductCardPriceComponent,

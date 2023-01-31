@@ -4,6 +4,7 @@ import { CardModule } from 'primeng/card';
 import { DataViewModule } from 'primeng/dataview';
 import { DialogModule } from 'primeng/dialog';
 import { DropdownModule } from 'primeng/dropdown';
+import { GalleriaModule } from 'primeng/galleria';
 import { InputTextModule } from 'primeng/inputtext';
 import { MenubarModule } from 'primeng/menubar';
 import { RatingModule } from 'primeng/rating';
@@ -22,6 +23,7 @@ import { ToolbarModule } from 'primeng/toolbar';
     DataViewModule,
     DialogModule,
     DropdownModule,
+    GalleriaModule,
     InputTextModule,
     MenubarModule,
     RatingModule,

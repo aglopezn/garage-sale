@@ -10,5 +10,7 @@ export interface Product {
   inventoryStatus?:string;
   category?:string;
   image?:string;
+  galleriaImages?:string[];
   rating?:number;
+  priority?:number;
 }

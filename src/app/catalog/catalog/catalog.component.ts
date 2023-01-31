@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { PrimeNGConfig, SelectItem } from 'primeng/api';
 import { ConditionLevel } from '../components/product-condition/product-condition.component';
-import { Product } from './product';
+import { Product } from '../model/product';
 import { ProductService } from '../services/products.service';
 
 const INVENTORY_STATUS = {

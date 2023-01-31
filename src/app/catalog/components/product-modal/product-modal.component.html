@@ -10,8 +10,8 @@
   [resizable]="false" 
   [closeOnEscape]="true" 
   [dismissableMask]="true">
-  <div class="product-modal-image-container">
-    <img class="product-modal-image" [src]="getImageSrc(product)" [alt]="product?.name"> 
+  <div class="product-modal-galleria-container">
+    <app-galleria [images]="getImagesToDisplay(product)"></app-galleria>
   </div>
   <ng-template pTemplate="footer">
     <app-product-card-action

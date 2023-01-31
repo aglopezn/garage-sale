@@ -1,0 +1,9 @@
+:host ::ng-deep .p-galleria-item-container {
+  height: 50vw;
+  background: rgba(0, 0, 0);
+}
+
+:host ::ng-deep .p-galleria-item-container img{
+  width: auto;
+  height: 100%;
+}
