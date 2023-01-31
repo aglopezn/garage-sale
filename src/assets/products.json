@@ -6,6 +6,12 @@
 			"name": "TV Sony 32\" LCD",
 			"description": "Televisor Sony Bravia de 32\" LCD Full HD. Puertos: 2 HDMI, USB, Audio/Video, Cable, VGA. Compatible con soportes VESA.",
 			"image": "tv-sony-main-min.jpg",
+			"galleriaImages": [
+				"tv-sony-main-min.jpg",
+				"tv-sony-1-min.jpg",
+				"tv-sony-2-min.jpg",
+				"tv-sony-3-min.jpg"
+			],
 			"currentPrice": 350000,
 			"originalPrice": 700000,
 			"category": "Tecnología",
@@ -62,6 +68,11 @@
 			"name": "Alacena Wengue",
 			"description": "Alacena con 5 entrepaños color Wengue de madera aglomerada. Dimensiones 170x60x30 centímetros",
 			"image": "alacena-main-min.jpg",
+			"galleriaImages": [
+				"alacena-main-min.jpg",
+				"alacena-1-min.jpg",
+				"alacena-2-min.jpg"
+			],
 			"currentPrice": 250000,
 			"originalPrice": 440000,
 			"category": "Muebles",
@@ -104,6 +115,10 @@
 			"name": "Colchoneta",
 			"description": "Colchoneta tipo yoga para realizar ejercicio en casa color morado. Dimensiones 173x61x1 centímetros",
 			"image": "colchoneta-main-min.jpg",
+			"galleriaImages": [
+				"colchoneta-main-min.jpg",
+				"colchoneta-1-min.jpg"
+			],
 			"currentPrice": 20000,
 			"originalPrice": 55000,
 			"category": "Deportes",
@@ -118,6 +133,12 @@
 			"name": "Brazo Soporte Doble",
 			"description": "Brazos de soporte para 1 monitor y 1 portátil. El soporte para el monitor es compatible con estandar VESA. Peso máximo soportado 7kg.",
 			"image": "brazos-soporte-main-min.jpg",
+			"galleriaImages": [
+				"brazos-soporte-main-min.jpg",
+				"brazos-soporte-1-min.jpg",
+				"brazos-soporte-2-min.jpg",
+				"brazos-soporte-3-min.jpg"
+			],
 			"currentPrice": 200000,
 			"originalPrice": 260000,
 			"category": "Tecnología",
@@ -132,6 +153,11 @@
 			"name": "Casco Bicicleta Rockrider ST 100",
 			"description": "Casco de ciclismo de montaña talla M. Dos unidades disponible, uno en negro y otro en blanco.",
 			"image": "helmet-bike-main-min.jpg",
+			"galleriaImages": [
+				"helmet-bike-main-min.jpg",
+				"helmet-bike-1-min.jpg",
+				"helmet-bike-2-min.jpg"
+			],
 			"currentPrice": 70000,
 			"originalPrice": 148000,
 			"category": "Deportes",
@@ -160,6 +186,10 @@
 			"name": "Casco Moto Abatible ",
 			"description": "Casco para moto abatible con certificación DOT y doble visor marca ICH. Dos unidades disponibles sin utilizar.",
 			"image": "casco-moto-main-min.jpg",
+			"galleriaImages": [
+				"casco-moto-main-min.jpg",
+				"casco-moto-1-min.jpg"
+			],
 			"currentPrice": 110000,
 			"originalPrice": 130000,
 			"category": "Moto",
@@ -188,6 +218,11 @@
 			"name": "Base Refrigerante",
 			"description": "Base refrigerante para portátil con 5 niveles de altura, 2 ventiladores y conexión USB.",
 			"image": "cooling-pad-main-min.jpg",
+			"galleriaImages": [
+				"cooling-pad-main-min.jpg",
+				"cooling-pad-1-min.jpg",
+				"cooling-pad-2-min.jpg"
+			],
 			"currentPrice": 30000,
 			"originalPrice": 45000,
 			"category": "Tecnología",
@@ -202,6 +237,13 @@
 			"name": "Gamer Bundle",
 			"description": "Combo de Teclado, Mouse, Audífonos y Mouse Pad Gamer marca Trust. Distribución de teclado español latinoamérica.",
 			"image": "gamer-bundle-main-min.jpg",
+			"galleriaImages": [
+				"gamer-bundle-main-min.jpg",
+				"gamer-bundle-1-min.jpg",
+				"gamer-bundle-2-min.jpg",
+				"gamer-bundle-3-min.jpg",
+				"gamer-bundle-4-min.jpg"
+			],
 			"currentPrice": 70000,
 			"originalPrice": 130000,
 			"category": "Tecnología",
@@ -216,6 +258,10 @@
 			"name": "Maleta para mascotas",
 			"description": "Maleta tipo burbuja para mascotas.",
 			"image": "bag-cat-main-min.jpg",
+			"galleriaImages": [
+				"bag-cat-main-min.jpg",
+				"bag-cat-1-min.jpg"
+			],
 			"currentPrice": 70000,
 			"originalPrice": 105000,
 			"category": "Mascotas",
@@ -258,6 +304,10 @@
 			"name": "Control para PC Genius",
 			"description": "Control para videojuegos PC, conexión USB marca Genius.",
 			"image": "genius-control-main-min.jpg",
+			"galleriaImages": [
+				"genius-control-main-min.jpg",
+				"genius-control-1-min.jpg"
+			],
 			"currentPrice": 30000,
 			"originalPrice": 60000,
 			"category": "Tecnología",
@@ -272,6 +322,10 @@
 			"name": "Mouse ergonómico Logitech ERGO M575 inalámbrico",
 			"description": "Mouse ergonómico con trackball inalámbrico, conexión bluetooth. Referencia Logitech ERGO M575",
 			"image": "mouse-m575-main-min.jpg",
+			"galleriaImages": [
+				"mouse-m575-main-min.jpg",
+				"mouse-m575-1-min.jpg"
+			],
 			"currentPrice": 140000,
 			"originalPrice": 230000,
 			"category": "Tecnología",
@@ -286,6 +340,10 @@
 			"name": "Aurículares inalámbricos",
 			"description": "Auriculares inalámbricos, conexión bluetooth. Micrófono integrado.",
 			"image": "earpods-bt-main-min.jpg",
+			"galleriaImages": [
+				"earpods-bt-main-min.jpg",
+				"earpods-bt-1-min.jpg"
+			],
 			"currentPrice": 20000,
 			"originalPrice": 40000,
 			"category": "Tecnología",
@@ -328,6 +386,10 @@
 			"name": "Guantes moticiclista Fox Rosados XS",
 			"description": "Guantas para conducción de moto marca Fox, color Rosa, talla XS.",
 			"image": "fox-gloves-main-min.jpg",
+			"galleriaImages": [
+				"fox-gloves-main-min.jpg",
+				"fox-gloves-1-min.jpg"
+			],
 			"currentPrice": 25000,
 			"originalPrice": 45000,
 			"category": "Moto",
@@ -370,6 +432,11 @@
 			"name": "Luces bicicleta led elops cl 500 delantero/trasero negro usb",
 			"description": "Potencia: De 5 a 15 lúmenes, Visible a 180°, Modo continuo o intermitente.",
 			"image": "btwin-blanco-main-min.jpg",
+			"galleriaImages": [
+				"btwin-blanco-main-min.jpg",
+				"btwin-blanco-1-min.jpg",
+				"btwin-blanco-2-min.jpg"
+			],
 			"currentPrice": 45000,
 			"originalPrice": 77000,
 			"category": "Deporte",
@@ -398,6 +465,10 @@
 			"name": "Luz de Bicicleta Shine 020 GW",
 			"description": "Luz delantera de bicicleta recargable, color blanco.",
 			"image": "gw-blanco-main-min.jpg",
+			"galleriaImages": [
+				"gw-blanco-main-min.jpg",
+				"gw-blanco-1-min.jpg"
+			],
 			"currentPrice": 18000,
 			"originalPrice": 30000,
 			"category": "Deporte",
@@ -440,6 +511,10 @@
 			"name": "Smart Watch Rosado",
 			"description": "Reloj Inteligente",
 			"image": "smart-watch-main-min.jpg",
+			"galleriaImages": [
+				"smart-watch-main-min.jpg",
+				"smart-watch-1-min.jpg"
+			],
 			"currentPrice": 30000,
 			"originalPrice": 60000,
 			"category": "Tecnología",
@@ -468,6 +543,10 @@
 			"name": "Mouse inalámbrico recargable Logitech MX Anywhere 2S flounder",
 			"description": "Mouse con 3 configuraciones de bluetooth",
 			"image": "mouse-main-min.jpg",
+			"galleriaImages": [
+				"mouse-main-min.jpg",
+				"mouse-1-min.jpg"
+			],
 			"currentPrice": 150000,
 			"originalPrice": 280000,
 			"category": "Tecnología",
