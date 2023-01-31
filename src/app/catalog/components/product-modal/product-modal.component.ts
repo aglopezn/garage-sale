@@ -1,5 +1,5 @@
-import { Component, ElementRef, EventEmitter, HostListener, Input, Output, Renderer2 } from '@angular/core';
-import { Product } from '../../catalog/product';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Product } from '../../model/product';
 
 @Component({
   selector: 'app-product-modal',
@@ -13,17 +13,9 @@ export class ProductModalComponent {
   @Input() product: Product;
   @Input() visible: boolean = false;
   @Output() visibleChange: EventEmitter<boolean> = new EventEmitter<boolean>();
+  productImagePrefix = 'assets/images/product/compressed';
 
-  constructor(
-    private renderer: Renderer2, 
-    private el: ElementRef,
-  ) {}
-
-  @HostListener('mousemove', ['$event'])
-  onMouseMoveImg(event: any) {
-    if(!event.target.classList.contains('product-modal-image')) return; 
-    this.renderer.setStyle(this.el.nativeElement.querySelector('.product-modal-image'), 'transform-origin', `${event.offsetX - 50}px ${event.offsetY - 50}px`)
-  }
+  constructor() {}
 
   onVisibleChange(newVisible) {
     this.visible = newVisible;
@@ -38,6 +30,12 @@ export class ProductModalComponent {
 
   getImageSrc(product: Product)  {
     if (!product?.image) return 'assets/images/primeng.svg';
-    return `assets/images/product/compressed/${product?.image}`;
+    return `${this.productImagePrefix}/${product?.image}`;
   }  
+
+  getImagesToDisplay(product: Product): string[] {
+    if(!product?.galleriaImages || product.galleriaImages.length === 0) 
+      return [this.getImageSrc(product)];
+    return product.galleriaImages.map(img => `${this.productImagePrefix}/${img}`)
+  }
 }
