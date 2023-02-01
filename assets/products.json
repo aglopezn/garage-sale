@@ -40,7 +40,7 @@
 				"gw-jaguar-10.jpg",
 				"gw-jaguar-11.jpg"
 			],
-			"currentPrice": 750000,
+			"currentPrice": 700000,
 			"originalPrice": 900000,
 			"category": "Deportes",
 			"quantity": 1,
@@ -68,8 +68,8 @@
 				"venzo-amphion-10.jpg",
 				"venzo-amphion-11.jpg"
 			],
-			"currentPrice": 900000,
-			"originalPrice": 1200000,
+			"currentPrice": 800000,
+			"originalPrice": 1100000,
 			"category": "Deportes",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
