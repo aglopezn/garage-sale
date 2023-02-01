@@ -8,6 +8,10 @@
   height: 100%;
 }
 
+:host ::ng-deep .p-galleria-item-nav-onhover .p-galleria-item-nav {
+  opacity: 1;
+}
+
 @media screen and (min-width: 900px) {
   :host ::ng-deep .p-galleria-item-container {
     height: 60vh;
