@@ -124,20 +124,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1008",
-			"code": "vbb124btr",
-			"name": "Set Mancuernas",
-			"description": "Set de mancuernas con pares de 1kg, 2kg y 3kg. En total son 6 mancuernas.",
-			"image": "mancuernas-main-min.jpg",
-			"currentPrice": 120000,
-			"originalPrice": 160000,
-			"category": "Deportes",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 7
-		},
-		{
 			"id": "1009",
 			"code": "cm230f032",
 			"name": "Colchoneta",
@@ -297,34 +283,6 @@
 			"inventoryStatus": "Disponible",
 			"rating": 5,
 			"priority": 8
-		},
-		{
-			"id": "1022",
-			"code": "LW7rsch0i",
-			"name": "Papelera oficina en aluminio 3L",
-			"description": "Papelera de pedal para oficina. Capacidad de 3L.",
-			"image": "trash-can-office-main-min.jpg",
-			"currentPrice": 25000,
-			"originalPrice": 55000,
-			"category": "Oficina",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1023",
-			"code": "1TvRwjX4a",
-			"name": "Bocina Bluetooth Digiblue",
-			"description": "Parlante bluetooth.",
-			"image": "speaker-bt-main-min.jpg",
-			"currentPrice": 40000,
-			"originalPrice": 70000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 4,
-			"priority": 1
 		},
 		{
 			"id": "1024",
