@@ -16,7 +16,7 @@
 			"originalPrice": 700000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 10
 		},
@@ -105,7 +105,7 @@
 			"originalPrice": 440000,
 			"category": "Muebles",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 10
 		},
