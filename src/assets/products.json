@@ -523,7 +523,7 @@
 			"originalPrice": 50000,
 			"category": "Moto",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 9
 		},
