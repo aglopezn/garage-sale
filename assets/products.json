@@ -110,20 +110,6 @@
 			"priority": 10
 		},
 		{
-			"id": "1005",
-			"code": "av2231fwg",
-			"name": "Biblioteca Wengue",
-			"description": "Biblioteca de 4 entrepaños de madera aglomerada color Wengue. Dimensiones 63x30x120 centímetros",
-			"image": "library-main-min.jpg",
-			"currentPrice": 100000,
-			"originalPrice": 190000,
-			"category": "Muebles",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 1
-		},
-		{
 			"id": "1009",
 			"code": "cm230f032",
 			"name": "Colchoneta",
@@ -179,20 +165,6 @@
 			"inventoryStatus": "Disponible",
 			"rating": 5,
 			"priority": 7
-		},
-		{
-			"id": "1015",
-			"code": "vb34btbg5",
-			"name": "Kit Taladro Percutor 600W ",
-			"description": "Taladro Percutor Bauker de 600W y 3/8\" con 90 accesorios",
-			"image": "taladro-main-min.jpg",
-			"currentPrice": 160000,
-			"originalPrice": 180000,
-			"category": "Hogar",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 1
 		},
 		{
 			"id": "1016",
@@ -380,7 +352,7 @@
 			"originalPrice": 45000,
 			"category": "Moto",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 9
 		},
@@ -627,7 +599,7 @@
 			"originalPrice": 35000,
 			"category": "Electronics",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3,
 			"priority": 7
 		},
