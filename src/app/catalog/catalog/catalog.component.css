@@ -121,6 +121,15 @@ a {
   opacity: 0.9;
 }
 
+@media screen and (min-width: 900px) {
+  .product-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+  }
+}
+
 @media screen and (max-width: 576px) {
   :host ::ng-deep .product-list-item {
     flex-direction: column;
