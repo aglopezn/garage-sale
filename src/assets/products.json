@@ -311,20 +311,6 @@
 			"priority": 3
 		},
 		{
-			"id": "1027",
-			"code": "i2gwpUJB4",
-			"name": "Calculadora científica Casio fx570ES Plus",
-			"description": "Calculadora científica para resolver, integrales definidas, derivadas, matrices, entre otros.",
-			"image": "casio-fx570-main-min.jpg",
-			"currentPrice": 50000,
-			"originalPrice": 110000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 4,
-			"priority": 1
-		},
-		{
 			"id": "1028",
 			"code": "dFaKVX3Fi",
 			"name": "Calculadora científica Casio fx95ES Plus",
@@ -355,20 +341,6 @@
 			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 9
-		},
-		{
-			"id": "1030",
-			"code": "NAbSGF2pv",
-			"name": "Kit 5 bandas elásticas para ejercicio",
-			"description": "Kit de 5 bandas elasticas de: 10, 15, 20, 30 y 40 libras.",
-			"image": "bandas-elasticas-main-min.jpg",
-			"currentPrice": 15000,
-			"originalPrice": 35000,
-			"category": "Deporte",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 1
 		},
 		{
 			"id": "1031",
@@ -448,20 +420,6 @@
 			"inventoryStatus": "Disponible",
 			"rating": 5,
 			"priority": 6
-		},
-		{
-			"id": "1036",
-			"code": "6kKmoDQ7O",
-			"name": "Calculadora Graficadora Texas Ti-nspire CX",
-			"description": "Calculadora Graficadora Texas Instruments Ti-nspire CX en buen estado, con cable.",
-			"image": "texas-calculator-main-min.jpg",
-			"currentPrice": 400000,
-			"originalPrice": 900000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 5
 		},
 		{
 			"id": "1037",
@@ -581,25 +539,6 @@
 			"category": "Electronics",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 7
-		},
-		{
-			"id": "1044",
-			"code": "6iVZBKLbB",
-			"name": "Tercera Mano con Lupa para soldar",
-			"description": "Tercera Mano con Lupa para soldar",
-			"image": "third-hand-main.jpg",
-			"galleriaImages": [
-				"third-hand-main.jpg",
-				"third-hand-1.jpg",
-				"third-hand-2.jpg"
-			],
-			"currentPrice": 17000,
-			"originalPrice": 35000,
-			"category": "Electronics",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
 			"rating": 3,
 			"priority": 7
 		},
