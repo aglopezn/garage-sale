@@ -554,6 +554,119 @@
 			"inventoryStatus": "Disponible",
 			"rating": 5,
 			"priority": 9
+		},
+		{
+			"id": "1041",
+			"code": "4iVGBMBbB",
+			"name": "Cautín Truper 45W con 3 puntas",
+			"description": "Cautín Truper 45W con 3 puntas",
+			"image": "cautin-main.jpg",
+			"galleriaImages": [
+				"cautin-main.jpg",
+				"cautin-1.jpg",
+				"cautin-2.jpg",
+				"cautin-3.jpg"
+			],
+			"currentPrice": 15000,
+			"originalPrice": 28000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 7
+		},
+		{
+			"id": "1042",
+			"code": "4iVGHWBbB",
+			"name": "Estabilizador de Voltaje 120V",
+			"description": "Estabilizador de Voltaje 120V",
+			"image": "estabilizador-main.jpg",
+			"galleriaImages": [
+				"estabilizador-main.jpg",
+				"estabilizador-1.jpg"
+			],
+			"currentPrice": 35000,
+			"originalPrice": 55000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 7
+		},
+		{
+			"id": "1043",
+			"code": "6iVZBMBbB",
+			"name": "Multimetro Digital",
+			"description": "Multimetro Digital",
+			"image": "multimeter-main.jpg",
+			"galleriaImages": [
+				"multimeter-main.jpg",
+				"multimeter-1.jpg",
+				"multimeter-2.jpg"
+			],
+			"currentPrice": 10000,
+			"originalPrice": 20000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 7
+		},
+		{
+			"id": "1044",
+			"code": "6iVZBKLbB",
+			"name": "Tercera Mano con Lupa para soldar",
+			"description": "Tercera Mano con Lupa para soldar",
+			"image": "third-hand-main.jpg",
+			"galleriaImages": [
+				"third-hand-main.jpg",
+				"third-hand-1.jpg",
+				"third-hand-2.jpg"
+			],
+			"currentPrice": 17000,
+			"originalPrice": 35000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 7
+		},
+		{
+			"id": "1045",
+			"code": "6iVABKLbB",
+			"name": "Mesita de Noche en madera Flormorado",
+			"description": "Mesita de Noche en madera Flormorado",
+			"image": "mesa-noche-main.jpeg",
+			"galleriaImages": [
+				"mesa-noche-main.jpeg",
+				"mesa-noche-1.jpeg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 100000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 2
+		},
+		{
+			"id": "1046",
+			"code": "6iVBBKLbB",
+			"name": "Silla en madera Flormorado",
+			"description": "Silla en madera Flormorado",
+			"image": "silla-main.jpeg",
+			"galleriaImages": [
+				"silla-main.jpeg",
+				"silla-1.jpeg",
+				"silla-2.jpeg"
+			],
+			"currentPrice": 45000,
+			"originalPrice": 75000,
+			"category": "Electronics",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 2
 		}
 		
 	]
