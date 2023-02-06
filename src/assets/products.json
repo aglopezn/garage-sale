@@ -24,7 +24,7 @@
 			"originalPrice": 900000,
 			"category": "Deportes",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 10
 		},
@@ -106,7 +106,7 @@
 			"originalPrice": 300000,
 			"category": "Tecnología",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 5,
 			"priority": 7
 		},
@@ -603,7 +603,7 @@
 			"originalPrice": 45000,
 			"category": "Tecnologia",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3,
 			"priority": 9
 		},
