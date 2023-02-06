@@ -103,7 +103,7 @@
 				"new-brazos-soporte-5.jpg"
 			],
 			"currentPrice": 200000,
-			"originalPrice": 260000,
+			"originalPrice": 300000,
 			"category": "Tecnología",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
@@ -622,6 +622,49 @@
 			"currentPrice": 100000,
 			"originalPrice": 330000,
 			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1052",
+			"code": "rJL9k5tXC",
+			"name": "Plancha Kalley a vapor 1000W",
+			"description": "Plancha Kalley a vapor 1000W",
+			"image": "plancha-main.jpg",
+			"galleriaImages": [
+				"plancha-main.jpg",
+				"plancha-1.jpg",
+				"plancha-2.jpg",
+				"plancha-3.jpg",
+				"plancha-4.jpg",
+				"plancha-5.jpg",
+				"plancha-6.jpg"
+			],
+			"currentPrice": 40000,
+			"originalPrice": 66000,
+			"category": "Hogar",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1053",
+			"code": "rJL9k5tWC",
+			"name": "Olla a presión Kalley 6 Litros",
+			"description": "Olla a presión Kalley 6 Litros",
+			"image": "olla-presion-main.jpg",
+			"galleriaImages": [
+				"olla-presion-main.jpg",
+				"olla-presion-1.jpg",
+				"olla-presion-2.jpg",
+				"olla-presion-3.jpg"
+			],
+			"currentPrice": 65000,
+			"originalPrice": 100000,
+			"category": "Hogar",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
