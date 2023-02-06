@@ -1,26 +1,6 @@
 {
 	"data": [
 		{
-			"id": "1000",
-			"code": "f230fh0g3",
-			"name": "TV Sony 32\" LCD",
-			"description": "Televisor Sony Bravia de 32\" LCD Full HD. Puertos: 2 HDMI, USB, Audio/Video, Cable, VGA. Compatible con soportes VESA.",
-			"image": "tv-sony-main-min.jpg",
-			"galleriaImages": [
-				"tv-sony-main-min.jpg",
-				"tv-sony-1-min.jpg",
-				"tv-sony-2-min.jpg",
-				"tv-sony-3-min.jpg"
-			],
-			"currentPrice": 350000,
-			"originalPrice": 700000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 10
-		},
-		{
 			"id": "1022",
 			"code": "ouKw9DTDB",
 			"name": "Bicicleta GW Jaguar Rin 29\"",
@@ -91,25 +71,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1004",
-			"code": "h456wer53",
-			"name": "Alacena Wengue",
-			"description": "Alacena con 5 entrepaños color Wengue de madera aglomerada. Dimensiones 170x60x30 centímetros",
-			"image": "alacena-main-min.jpg",
-			"galleriaImages": [
-				"alacena-main-min.jpg",
-				"alacena-1-min.jpg",
-				"alacena-2-min.jpg"
-			],
-			"currentPrice": 250000,
-			"originalPrice": 440000,
-			"category": "Muebles",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 10
-		},
-		{
 			"id": "1009",
 			"code": "cm230f032",
 			"name": "Colchoneta",
@@ -125,19 +86,21 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 3
+			"priority": 1
 		},
 		{
 			"id": "1010",
 			"code": "plb34234v",
 			"name": "Brazo Soporte Doble",
 			"description": "Brazos de soporte para 1 monitor y 1 portátil. El soporte para el monitor es compatible con estandar VESA. Peso máximo soportado 7kg.",
-			"image": "brazos-soporte-main-min.jpg",
+			"image": "new-brazos-soporte-main.jpg",
 			"galleriaImages": [
-				"brazos-soporte-main-min.jpg",
-				"brazos-soporte-1-min.jpg",
-				"brazos-soporte-2-min.jpg",
-				"brazos-soporte-3-min.jpg"
+				"new-brazos-soporte-main.jpg",
+				"new-brazos-soporte-1.jpg",
+				"new-brazos-soporte-2.jpg",
+				"new-brazos-soporte-3.jpg",
+				"new-brazos-soporte-4.jpg",
+				"new-brazos-soporte-5.jpg"
 			],
 			"currentPrice": 200000,
 			"originalPrice": 260000,
@@ -164,7 +127,7 @@
 			"quantity": 2,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 7
+			"priority": 1
 		},
 		{
 			"id": "1016",
@@ -182,7 +145,7 @@
 			"quantity": 2,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 5
+			"priority": 1
 		},
 		{
 			"id": "1017",
@@ -196,7 +159,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 5
+			"priority": 1
 		},
 		{
 			"id": "1019",
@@ -215,7 +178,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 3
+			"priority": 8
 		},
 		{
 			"id": "1020",
@@ -236,7 +199,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 7
+			"priority": 8
 		},
 		{
 			"id": "1021",
@@ -254,7 +217,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 8
+			"priority": 6
 		},
 		{
 			"id": "1024",
@@ -272,17 +235,20 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 4,
-			"priority": 5
+			"priority": 1
 		},
 		{
 			"id": "1025",
 			"code": "qr6r7fxGj",
 			"name": "Mouse ergonómico Logitech ERGO M575 inalámbrico",
 			"description": "Mouse ergonómico con trackball inalámbrico, conexión bluetooth. Referencia Logitech ERGO M575",
-			"image": "mouse-m575-main-min.jpg",
+			"image": "mouse-m575-main.jpg",
 			"galleriaImages": [
-				"mouse-m575-main-min.jpg",
-				"mouse-m575-1-min.jpg"
+				"mouse-m575-main.jpg",
+				"mouse-m575-1.jpg",
+				"mouse-m575-2.jpg",
+				"mouse-m575-3.jpg",
+				"mouse-m575-4.jpg"
 			],
 			"currentPrice": 140000,
 			"originalPrice": 230000,
@@ -290,7 +256,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 5
+			"priority": 8
 		},
 		{
 			"id": "1026",
@@ -308,38 +274,25 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 3
+			"priority": 1
 		},
 		{
 			"id": "1028",
 			"code": "dFaKVX3Fi",
 			"name": "Calculadora científica Casio fx95ES Plus",
 			"description": "Calculadora científica para trigonometría, matrices, entre otros.",
-			"image": "casio-fx95-main-min.jpg",
+			"image": "casio-fx95-main.jpg",
+			"galleriaImages": [
+				"casio-fx95-main.jpg",
+				"casio-fx95-1.jpg",
+				"casio-fx95-2.jpg"
+			],
 			"currentPrice": 40000,
 			"originalPrice": 90000,
 			"category": "Tecnología",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 4,
-			"priority": 5
-		},
-		{
-			"id": "1029",
-			"code": "geNUWz7rm",
-			"name": "Guantes moticiclista Fox Rosados XS",
-			"description": "Guantas para conducción de moto marca Fox, color Rosa, talla XS.",
-			"image": "fox-gloves-main-min.jpg",
-			"galleriaImages": [
-				"fox-gloves-main-min.jpg",
-				"fox-gloves-1-min.jpg"
-			],
-			"currentPrice": 25000,
-			"originalPrice": 45000,
-			"category": "Moto",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
 			"priority": 9
 		},
 		{
@@ -354,7 +307,7 @@
 			"quantity": 2,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 5
+			"priority": 1
 		},
 		{
 			"id": "1032",
@@ -373,7 +326,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 6
+			"priority": 1
 		},
 		{
 			"id": "1033",
@@ -387,7 +340,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 6
+			"priority": 1
 		},
 		{
 			"id": "1034",
@@ -405,7 +358,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 6
+			"priority": 1
 		},
 		{
 			"id": "1035",
@@ -419,7 +372,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 6
+			"priority": 1
 		},
 		{
 			"id": "1037",
@@ -437,31 +390,40 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 5
+			"priority": 1
 		},
 		{
 			"id": "1038",
 			"code": "n7n1J4iGe",
 			"name": "Teclado Logitech K380 español latinoamerica",
 			"description": "Teclado con 3 configuraciones de bluetooth",
-			"image": "keyboard-main-min.jpg",
+			"image": "keyboard-main.jpg",
+			"galleriaImages": [
+				"keyboard-main.jpg",
+				"keyboard-1.jpg",
+				"keyboard-2.jpg",
+				"keyboard-3.jpg"
+			],
 			"currentPrice": 130000,
 			"originalPrice": 170000,
 			"category": "Tecnología",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 6
+			"priority": 8
 		},
 		{
 			"id": "1039",
 			"code": "4iVFAMBbA",
 			"name": "Mouse inalámbrico recargable Logitech MX Anywhere 2S flounder",
 			"description": "Mouse con 3 configuraciones de bluetooth",
-			"image": "mouse-main-min.jpg",
+			"image": "mouse-main.jpg",
 			"galleriaImages": [
-				"mouse-main-min.jpg",
-				"mouse-1-min.jpg"
+				"mouse-main.jpg",
+				"mouse-1.jpg",
+				"mouse-2.jpg",
+				"mouse-3.jpg",
+				"mouse-4.jpg"
 			],
 			"currentPrice": 150000,
 			"originalPrice": 280000,
@@ -469,21 +431,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
-			"priority": 7
-		},
-		{
-			"id": "1040",
-			"code": "4iVFAMBbB",
-			"name": "Candado Freno De Disco Con Alarma Para Moto",
-			"description": "1 Candado para freno disco con 2 Llaves, como nuevo en empaque original.",
-			"image": "moto-alarma-main-min.jpg",
-			"currentPrice": 30000,
-			"originalPrice": 50000,
-			"category": "Moto",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 9
+			"priority": 8
 		},
 		{
 			"id": "1041",
@@ -501,9 +449,9 @@
 			"originalPrice": 28000,
 			"category": "Electronics",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3,
-			"priority": 7
+			"priority": 1
 		},
 		{
 			"id": "1042",
@@ -521,7 +469,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
-			"priority": 7
+			"priority": 1
 		},
 		{
 			"id": "1043",
@@ -540,7 +488,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
-			"priority": 7
+			"priority": 1
 		},
 		{
 			"id": "1045",
@@ -558,7 +506,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
-			"priority": 2
+			"priority": 1
 		},
 		{
 			"id": "1046",
@@ -577,7 +525,107 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
-			"priority": 2
+			"priority": 1
+		},
+		{
+			"id": "1047",
+			"code": "65LdlQIMG",
+			"name": "Soporte de pared para TV/Monitor de 32\" a 55\" negro",
+			"description": "Soporte de pared para TV/Monitor de 32\" a 55\" negro",
+			"image": "soporte-tv-main.jpg",
+			"galleriaImages": [
+				"soporte-tv-main.jpg",
+				"soporte-tv-1.jpg",
+				"soporte-tv-2.jpg",
+				"soporte-tv-3.jpg"
+			],
+			"currentPrice": 38000,
+			"originalPrice": 60000,
+			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1048",
+			"code": "JTBcrvIGW",
+			"name": "Router Cisco Linksys E2000",
+			"description": "Router Cisco Linksys E2000",
+			"image": "cisco-main.jpg",
+			"galleriaImages": [
+				"cisco-main.jpg",
+				"cisco-1.jpg",
+				"cisco-2.jpg",
+				"cisco-3.jpg",
+				"cisco-4.jpg",
+				"cisco-5.jpg"
+			],
+			"currentPrice": 85000,
+			"originalPrice": 135000,
+			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1049",
+			"code": "COKMD7der",
+			"name": "Humidificador con escencias incluidas",
+			"description": "Humidificador con escencias incluidas",
+			"image": "humidificador-main.jpg",
+			"galleriaImages": [
+				"humidificador-main.jpg",
+				"humidificador-1.jpg"
+			],
+			"currentPrice": 40000,
+			"originalPrice": 75000,
+			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 6
+		},
+		{
+			"id": "1050",
+			"code": "rJo9J5tXC",
+			"name": "Kit soldador Guantes + Careta + Gorro",
+			"description": "Kit soldador Guantes + Careta + Gorro",
+			"image": "kit-soldador-main.jpg",
+			"galleriaImages": [
+				"kit-soldador-main.jpg",
+				"kit-soldador-1.jpg",
+				"kit-soldador-2.jpg",
+				"kit-soldador-3.jpg"
+			],
+			"currentPrice": 20000,
+			"originalPrice": 45000,
+			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 9
+		},
+		{
+			"id": "1051",
+			"code": "rJo9k5tXC",
+			"name": "Silla giratoria de oficina con altura regulable",
+			"description": "Silla giratoria de oficina con altura regulable",
+			"image": "silla-oficina-main.jpg",
+			"galleriaImages": [
+				"silla-oficina-main.jpg",
+				"silla-oficina-1.jpg",
+				"silla-oficina-2.jpg",
+				"silla-oficina-3.jpg"
+			],
+			"currentPrice": 100000,
+			"originalPrice": 330000,
+			"category": "Tecnologia",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
 		}
 		
 	]
