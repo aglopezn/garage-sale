@@ -89,28 +89,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1010",
-			"code": "plb34234v",
-			"name": "Brazo Soporte Doble",
-			"description": "Brazos de soporte para 1 monitor y 1 portátil. El soporte para el monitor es compatible con estandar VESA. Peso máximo soportado 7kg.",
-			"image": "new-brazos-soporte-main.jpg",
-			"galleriaImages": [
-				"new-brazos-soporte-main.jpg",
-				"new-brazos-soporte-1.jpg",
-				"new-brazos-soporte-2.jpg",
-				"new-brazos-soporte-3.jpg",
-				"new-brazos-soporte-4.jpg",
-				"new-brazos-soporte-5.jpg"
-			],
-			"currentPrice": 200000,
-			"originalPrice": 300000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Agotado",
-			"rating": 5,
-			"priority": 7
-		},
-		{
 			"id": "1012",
 			"code": "250vm23cc",
 			"name": "Casco Bicicleta Rockrider ST 100",
