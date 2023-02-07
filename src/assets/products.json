@@ -646,7 +646,7 @@
 			"originalPrice": 66000,
 			"category": "Hogar",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3,
 			"priority": 1
 		},
