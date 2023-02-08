@@ -3,6 +3,7 @@ import { PrimeNGConfig, SelectItem } from 'primeng/api';
 import { Product } from '../../model/product';
 import { ConditionLevel, INVENTORY_STATUS } from '../../services/constants';
 import { ProductService } from '../../services/products.service';
+import { Utils } from '../../services/utils';
 
 @Component({
   selector: 'app-clothing',
@@ -57,14 +58,11 @@ export class ClothingComponent {
   }
 
   getContactLink(product: Product) {
-    const message = `Hola. Me interesa el producto ${product.name} que tienes en venta.`
-    const encoded = encodeURIComponent(message);
-    return `https://wa.me/573195485338?text=${encoded}`;
+    return Utils.getContactLink(product);
   }
 
   getImageSrc(product: Product)  {
-    if (!product.image) return 'assets/images/primeng.svg';
-    return `assets/images/product/compressed/${product.image}`;
+    return Utils.getImageSrc(product.image);
   }
 
   getCondition(product: Product) {

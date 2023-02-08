@@ -19,3 +19,13 @@ export enum Availability {
   Available = 'Disponible',
   Unavailable = 'Agotado',
 }
+
+export const MESSAGES = {
+  interestedInProduct: 'Hola. Me interesa el producto {productName} que tienes en venta.'
+}
+
+export const ROUTES = {
+  contactPrefix: 'https://wa.me/573195485338?text=',
+  defaultImg: 'assets/images/primeng.svg',
+  imgPrefix: 'assets/images/product/compressed/',
+}
