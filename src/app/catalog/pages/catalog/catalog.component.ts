@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { PrimeNGConfig, SelectItem } from 'primeng/api';
-import { Product } from '../model/product';
-import { ConditionLevel, INVENTORY_STATUS } from '../services/constants';
-import { ProductService } from '../services/products.service';
+import { Product } from '../../model/product';
+import { ConditionLevel, INVENTORY_STATUS } from '../../services/constants';
+import { ProductService } from '../../services/products.service';
 
 
 @Component({

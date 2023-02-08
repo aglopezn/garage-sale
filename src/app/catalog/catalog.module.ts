@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CatalogRoutingModule } from './catalog-routing.module';
-import { CatalogComponent } from './catalog/catalog.component';
+import { CatalogComponent } from './pages/catalog/catalog.component';
 import { ClothingComponent } from './pages/clothing/clothing.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GalleriaComponent } from './components/galleria/galleria.component';
