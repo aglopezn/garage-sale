@@ -1,12 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { ConditionLevel } from '../product-condition/product-condition.component';
-
-export enum Availability {
-  Available = 'Disponible',
-  Unavailable = 'Agotado',
-}
-
-// export type Availability = 'Disponible'|'Agotado';
+import { Availability, ConditionLevel } from '../../services/constants';
 
 @Component({
   selector: 'app-product-card-header',

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CatalogRoutingModule } from './catalog-routing.module';
 import { CatalogComponent } from './catalog/catalog.component';
+import { ClothingComponent } from './pages/clothing/clothing.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GalleriaComponent } from './components/galleria/galleria.component';
 import { HttpClientModule } from '@angular/common/http';
@@ -19,6 +20,7 @@ import { ProductService } from './services/products.service';
 @NgModule({
   declarations: [
     CatalogComponent,
+    ClothingComponent,
     GalleriaComponent,
     ProductCardComponent,
     ProductCardHeaderComponent,

@@ -1,56 +1,48 @@
 import { Component } from '@angular/core';
 import { PrimeNGConfig, SelectItem } from 'primeng/api';
-import { Product } from '../model/product';
-import { ConditionLevel, INVENTORY_STATUS } from '../services/constants';
-import { ProductService } from '../services/products.service';
-
+import { Product } from '../../model/product';
+import { ConditionLevel, INVENTORY_STATUS } from '../../services/constants';
+import { ProductService } from '../../services/products.service';
 
 @Component({
-  selector: 'app-catalog',
-  templateUrl: './catalog.component.html',
-  styleUrls: ['./catalog.component.css']
+  selector: 'app-clothing',
+  templateUrl: './clothing.component.html',
+  styleUrls: ['./clothing.component.css']
 })
-export class CatalogComponent {
+export class ClothingComponent {
   products: Product[];
-
   sortOptions: SelectItem[];
-
   sortOrder: number;
-
   sortField: string;
-
   sortKey: any;
-
   productSelected: Product;
-
   showModal: boolean = false;
 
   constructor(private productService: ProductService, private primengConfig: PrimeNGConfig) { }
 
   ngOnInit() {
-      this.productService.getProducts()
+      this.productService.getClothingProducts()
         .then(data => this.products = data);
 
       this.sortOptions = [
-          {label: 'Precio más bajo primero', value: 'currentPrice'},
-          {label: 'Precio más alto primero', value: '!currentPrice'},
-          {label: 'Nombre A - Z', value: 'name'},
-          {label: 'Nombre Z - A', value: '!name'},
+        {label: 'Precio más bajo primero', value: 'currentPrice'},
+        {label: 'Precio más alto primero', value: '!currentPrice'},
+        {label: 'Nombre A - Z', value: 'name'},
+        {label: 'Nombre Z - A', value: '!name'},
       ];
 
       this.primengConfig.ripple = true;
   }
 
   onSortChange(event) {
-      let value = event.value;
-
+      const value = event.value;
       if (value.indexOf('!') === 0) {
-          this.sortOrder = -1;
-          this.sortField = value.substring(1, value.length);
+        this.sortOrder = -1;
+        this.sortField = value.substring(1, value.length);
       }
       else {
-          this.sortOrder = 1;
-          this.sortField = value;
+        this.sortOrder = 1;
+        this.sortField = value;
       }
   }
 

@@ -1,10 +1,5 @@
 import { Component, Input } from '@angular/core';
-
-export enum ConditionLevel {
-  Good = '1',
-  Regular = '2',
-  Bad = '3',
-}
+import { ConditionLevel } from '../../services/constants';
 
 const conditionLabelMapping = {
   [ConditionLevel.Good]    : 'Estado: Bueno',

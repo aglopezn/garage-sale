@@ -1,0 +1,33 @@
+{
+	"data": [
+		{
+			"id": "1022",
+			"code": "ouKw9DTDB",
+			"name": "Bicicleta GW Jaguar Rin 29\"",
+			"description": "GW Jaguar Rin 29\", freno disco mecánico, suspensión con bloqueo, cambios 7x3 Shimano, soporte caramañola GW, candado bicicleta, sillin y pedales GW, Marco talla 19 (L).",
+			"image": "gw-jaguar-main-min.jpg",
+			"galleriaImages": [
+				"gw-jaguar-main-min.jpg",
+				"gw-jaguar-1.jpg",
+				"gw-jaguar-2.jpg",
+				"gw-jaguar-3.jpg",
+				"gw-jaguar-4.jpg",
+				"gw-jaguar-5.jpg",
+				"gw-jaguar-6.jpg",
+				"gw-jaguar-7.jpg",
+				"gw-jaguar-8.jpg",
+				"gw-jaguar-9.jpg",
+				"gw-jaguar-10.jpg",
+				"gw-jaguar-11.jpg"
+			],
+			"currentPrice": 700000,
+			"originalPrice": 900000,
+			"category": "Deportes",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 5,
+			"priority": 10
+		}
+		
+	]
+}

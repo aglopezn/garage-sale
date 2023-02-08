@@ -24,6 +24,22 @@ export class ProductService {
         });
     }
 
+    getClothingProducts() {
+        return this.http.get<any>('assets/clothingProducts.json')
+        .toPromise()
+        .then(res => <Product[]>res.data)
+        .then(data => { 
+            const mapped = data.map(product => ({
+                ...product,
+                discount: this.getDiscount(product),
+            }))
+            mapped.sort(this.byDiscount());
+            mapped.sort(this.byPriority());
+            mapped.sort(this.byAvailability());
+            return mapped;
+        });
+    }
+
     generateId() {
         let text = "";
         let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
