@@ -1,33 +1,378 @@
 {
 	"data": [
 		{
-			"id": "1022",
+			"id": "1000",
 			"code": "ouKw9DTDB",
-			"name": "Bicicleta GW Jaguar Rin 29\"",
-			"description": "GW Jaguar Rin 29\", freno disco mecánico, suspensión con bloqueo, cambios 7x3 Shimano, soporte caramañola GW, candado bicicleta, sillin y pedales GW, Marco talla 19 (L).",
-			"image": "gw-jaguar-main-min.jpg",
+			"name": "Blusa Beige Sybilla Night Talla L",
+			"description": "Blusa Beige Sybilla Night Talla L",
+			"image": "blusa-beige-1.jpg",
 			"galleriaImages": [
-				"gw-jaguar-main-min.jpg",
-				"gw-jaguar-1.jpg",
-				"gw-jaguar-2.jpg",
-				"gw-jaguar-3.jpg",
-				"gw-jaguar-4.jpg",
-				"gw-jaguar-5.jpg",
-				"gw-jaguar-6.jpg",
-				"gw-jaguar-7.jpg",
-				"gw-jaguar-8.jpg",
-				"gw-jaguar-9.jpg",
-				"gw-jaguar-10.jpg",
-				"gw-jaguar-11.jpg"
+				"blusa-beige-1.jpg",
+				"blusa-beige-2.jpg",
+				"blusa-beige-3.jpg"
 			],
-			"currentPrice": 700000,
-			"originalPrice": 900000,
-			"category": "Deportes",
+			"currentPrice": 20000,
+			"originalPrice": 55000,
+			"category": "Formal",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 10
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1001",
+			"code": "ouKw9DTDB",
+			"name": "Blusa Negra Thalia Sodi Talla XS",
+			"description": "Blusa Negra Thalia Sodi Talla XS",
+			"image": "blusa-negra-1.jpg",
+			"galleriaImages": [
+				"blusa-negra-1.jpg",
+				"blusa-negra-2.jpg",
+				"blusa-negra-3.jpg",
+				"blusa-negra-4.jpg"
+			],
+			"currentPrice": 20000,
+			"originalPrice": 60000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1002",
+			"code": "ouKw9DTDB",
+			"name": "Botines en cuero negro Fiorenzi Talla 37",
+			"description": "Botines en cuero negro Fiorenzi Talla 37",
+			"image": "botas-negras-1.jpg",
+			"galleriaImages": [
+				"botas-negras-1.jpg",
+				"botas-negras-2.jpg",
+				"botas-negras-3.jpg",
+				"botas-negras-4.jpg",
+				"botas-negras-5.jpg",
+				"botas-negras-6.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 239800,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1003",
+			"code": "ouKw9DTDB",
+			"name": "Chaqueta en cuero café con capota removible Talla S",
+			"description": "Chaqueta en cuero café con capota removible Talla S",
+			"image": "chaqueta-cuero-cafe-1.jpg",
+			"galleriaImages": [
+				"chaqueta-cuero-cafe-1.jpg",
+				"chaqueta-cuero-cafe-2.jpg",
+				"chaqueta-cuero-cafe-3.jpg",
+				"chaqueta-cuero-cafe-4.jpg",
+				"chaqueta-cuero-cafe-5.jpg",
+				"chaqueta-cuero-cafe-6.jpg",
+				"chaqueta-cuero-cafe-7.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 150000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1004",
+			"code": "ouKw9DTDB",
+			"name": "Chaqueta en cuero negra con capota removible Talla S",
+			"description": "Chaqueta en cuero negra con capota removible Talla S",
+			"image": "chaqueta-cuero-negra-1.jpg",
+			"galleriaImages": [
+				"chaqueta-cuero-negra-1.jpg",
+				"chaqueta-cuero-negra-2.jpg",
+				"chaqueta-cuero-negra-3.jpg",
+				"chaqueta-cuero-negra-4.jpg",
+				"chaqueta-cuero-negra-5.jpg",
+				"chaqueta-cuero-negra-6.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 150000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1005",
+			"code": "ouKw9DTDB",
+			"name": "Jean Levi's Azul 524 Skinny Talla 3",
+			"description": "Jean Levi's Azul 524 Skinny Talla 3",
+			"image": "jean-levis-1.jpg",
+			"galleriaImages": [
+				"jean-levis-1.jpg",
+				"jean-levis-2.jpg",
+				"jean-levis-3.jpg",
+				"jean-levis-4.jpg",
+				"jean-levis-5.jpg",
+				"jean-levis-6.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 154000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1006",
+			"code": "ouKw9DTDB",
+			"name": "Leggins en cuero marca Carmel Talla 8",
+			"description": "Leggins en cuero marca Carmel Talla 8",
+			"image": "leggins-cuero-1.jpg",
+			"galleriaImages": [
+				"leggins-cuero-1.jpg",
+				"leggins-cuero-2.jpg",
+				"leggins-cuero-3.jpg",
+				"leggins-cuero-4.jpg",
+				"leggins-cuero-5.jpg"
+			],
+			"currentPrice": 25000,
+			"originalPrice": 70000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1007",
+			"code": "ouKw9DTDB",
+			"name": "Patanalón Adidas Essentials Linear Talla S",
+			"description": "Patanalón Adidas Essentials Linear Talla S",
+			"image": "pantalon-adidas-1.jpg",
+			"galleriaImages": [
+				"pantalon-adidas-1.jpg",
+				"pantalon-adidas-2.jpg",
+				"pantalon-adidas-3.jpg",
+				"pantalon-adidas-4.jpg",
+				"pantalon-adidas-5.jpg"
+			],
+			"currentPrice": 65000,
+			"originalPrice": 179990,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1008",
+			"code": "ouKw9DTDB",
+			"name": "Pantalon Formal Gris Oscuro KOAJ Talla 8",
+			"description": "Pantalon Formal Gris Oscuro KOAJ Talla 8",
+			"image": "pantalon-formal-gris-1.jpg",
+			"galleriaImages": [
+				"pantalon-formal-gris-1.jpg",
+				"pantalon-formal-gris-2.jpg",
+				"pantalon-formal-gris-3.jpg",
+				"pantalon-formal-gris-4.jpg",
+				"pantalon-formal-gris-5.jpg"
+			],
+			"currentPrice": 30000,
+			"originalPrice": 80000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1009",
+			"code": "ouKw9DTDB",
+			"name": "Pantalón Palo de Rosa Calvin Klein Talla 4",
+			"description": "Pantalón Palo de Rosa Calvin Klein Talla 4",
+			"image": "pantalon-palo-rosa-1.jpg",
+			"galleriaImages": [
+				"pantalon-palo-rosa-1.jpg",
+				"pantalon-palo-rosa-2.jpg",
+				"pantalon-palo-rosa-3.jpg",
+				"pantalon-palo-rosa-4.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 199000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1010",
+			"code": "ouKw9DTDB",
+			"name": "Chaqueta Rompevientos Rosada Decathlon Talla XS",
+			"description": "Chaqueta Rompevientos Rosada Decathlon Talla XS",
+			"image": "rompevientos-rosa-1.jpg",
+			"galleriaImages": [
+				"rompevientos-rosa-1.jpg",
+				"rompevientos-rosa-2.jpg",
+				"rompevientos-rosa-3.jpg",
+				"rompevientos-rosa-4.jpg",
+				"rompevientos-rosa-5.jpg"
+			],
+			"currentPrice": 30000,
+			"originalPrice": 99000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1011",
+			"code": "ouKw9DTDB",
+			"name": "Tacon Plateado marca Colombiana Talla 37",
+			"description": "Tacon Plateado marca Colombiana Talla 37",
+			"image": "tacon-blanco-1.jpg",
+			"galleriaImages": [
+				"tacon-blanco-1.jpg",
+				"tacon-blanco-2.jpg",
+				"tacon-blanco-3.jpg",
+				"tacon-blanco-4.jpg"
+			],
+			"currentPrice": 35000,
+			"originalPrice": 100000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1012",
+			"code": "ouKw9DTDB",
+			"name": "Tacon Negro tipo gamusa marca Colombiana Talla 37",
+			"description": "Tacon Negro tipo gamusa marca Colombiana Talla 37",
+			"image": "tacon-gamusa-1.jpg",
+			"galleriaImages": [
+				"tacon-gamusa-1.jpg",
+				"tacon-gamusa-2.jpg",
+				"tacon-gamusa-3.jpg",
+				"tacon-gamusa-4.jpg"
+			],
+			"currentPrice": 25000,
+			"originalPrice": 69000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1013",
+			"code": "ouKw9DTDB",
+			"name": "Zapatillas Under Armour Rosa Talla US 7.5",
+			"description": "Zapatillas Under Armour Rosa Talla US 7.5",
+			"image": "under-armor-rosa-1.jpg",
+			"galleriaImages": [
+				"under-armor-rosa-1.jpg",
+				"under-armor-rosa-2.jpg",
+				"under-armor-rosa-3.jpg",
+				"under-armor-rosa-4.jpg",
+				"under-armor-rosa-5.jpg"
+			],
+			"currentPrice": 60000,
+			"originalPrice": 209000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1014",
+			"code": "ouKw9DTDB",
+			"name": "Vestido Formal Rosado marca Colombiana tipo corset Talla Única",
+			"description": "Vestido Formal Rosado marca Colombiana tipo corset Talla Única",
+			"image": "vestido-formal-rosa-1.jpg",
+			"galleriaImages": [
+				"vestido-formal-rosa-1.jpg",
+				"vestido-formal-rosa-2.jpg",
+				"vestido-formal-rosa-3.jpg",
+				"vestido-formal-rosa-4.jpg",
+				"vestido-formal-rosa-5.jpg",
+				"vestido-formal-rosa-6.jpg"
+			],
+			"currentPrice": 95000,
+			"originalPrice": 250000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1015",
+			"code": "ouKw9DTDB",
+			"name": "Vestido Formal Verde SHEIN Talla M",
+			"description": "Vestido Formal Verde SHEIN Talla M",
+			"image": "vestido-formal-verde-1.jpg",
+			"galleriaImages": [
+				"vestido-formal-verde-1.jpg",
+				"vestido-formal-verde-2.jpg",
+				"vestido-formal-verde-3.jpg",
+				"vestido-formal-verde-4.jpg"
+			],
+			"currentPrice": 40000,
+			"originalPrice": 100000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1016",
+			"code": "ouKw9DTDB",
+			"name": "Vestido Naranja KOAJ Talla S",
+			"description": "Vestido Naranja KOAJ Talla S",
+			"image": "vestido-naranja-1.jpg",
+			"galleriaImages": [
+				"vestido-naranja-1.jpg",
+				"vestido-naranja-2.jpg",
+				"vestido-naranja-3.jpg"
+			],
+			"currentPrice": 35000,
+			"originalPrice": 99000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
+		},
+		{
+			"id": "1017",
+			"code": "ouKw9DTDB",
+			"name": "Vestido de verano Naranja marco USA Talla XS",
+			"description": "Vestido de verano Naranja marco USA Talla XS",
+			"image": "vestido-verano-naranja-1.jpg",
+			"galleriaImages": [
+				"vestido-verano-naranja-1.jpg",
+				"vestido-verano-naranja-2.jpg",
+				"vestido-verano-naranja-3.jpg",
+				"vestido-verano-naranja-4.jpg"
+			],
+			"currentPrice": 20000,
+			"originalPrice": 79000,
+			"category": "Formal",
+			"quantity": 1,
+			"inventoryStatus": "Disponible",
+			"rating": 3,
+			"priority": 1
 		}
-		
 	]
 }
