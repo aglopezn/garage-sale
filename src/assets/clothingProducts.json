@@ -331,7 +331,7 @@
 			"originalPrice": 100000,
 			"category": "Formal",
 			"quantity": 1,
-			"inventoryStatus": "Disponible",
+			"inventoryStatus": "Agotado",
 			"rating": 3,
 			"priority": 1
 		},
