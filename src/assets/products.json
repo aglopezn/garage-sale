@@ -533,26 +533,6 @@
 			"priority": 6
 		},
 		{
-			"id": "1051",
-			"code": "rJo9k5tXC",
-			"name": "Silla giratoria de oficina con altura regulable",
-			"description": "Silla giratoria de oficina con altura regulable",
-			"image": "silla-oficina-main.jpg",
-			"galleriaImages": [
-				"silla-oficina-main.jpg",
-				"silla-oficina-1.jpg",
-				"silla-oficina-2.jpg",
-				"silla-oficina-3.jpg"
-			],
-			"currentPrice": 100000,
-			"originalPrice": 330000,
-			"category": "Tecnologia",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
 			"id": "1053",
 			"code": "rJL9k5tWC",
 			"name": "Olla a presión Kalley 6 Litros",
