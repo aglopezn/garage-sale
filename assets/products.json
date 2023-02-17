@@ -166,24 +166,6 @@
 			"priority": 8
 		},
 		{
-			"id": "1021",
-			"code": "tJ29NxGdj",
-			"name": "Maleta para mascotas",
-			"description": "Maleta tipo burbuja para mascotas.",
-			"image": "bag-cat-main-min.jpg",
-			"galleriaImages": [
-				"bag-cat-main-min.jpg",
-				"bag-cat-1-min.jpg"
-			],
-			"currentPrice": 70000,
-			"originalPrice": 105000,
-			"category": "Mascotas",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 6
-		},
-		{
 			"id": "1024",
 			"code": "JPC1RHko4",
 			"name": "Control para PC Genius",
@@ -410,25 +392,6 @@
 			],
 			"currentPrice": 35000,
 			"originalPrice": 55000,
-			"category": "Electronics",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1043",
-			"code": "6iVZBMBbB",
-			"name": "Multimetro Digital",
-			"description": "Multimetro Digital",
-			"image": "multimeter-main.jpg",
-			"galleriaImages": [
-				"multimeter-main.jpg",
-				"multimeter-1.jpg",
-				"multimeter-2.jpg"
-			],
-			"currentPrice": 10000,
-			"originalPrice": 20000,
 			"category": "Electronics",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
