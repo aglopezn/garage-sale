@@ -150,48 +150,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1007",
-			"code": "ouKw9DTDB",
-			"name": "Patanalón Adidas Essentials Linear Talla S",
-			"description": "Patanalón Adidas Essentials Linear Talla S",
-			"image": "pantalon-adidas-1.jpg",
-			"galleriaImages": [
-				"pantalon-adidas-1.jpg",
-				"pantalon-adidas-2.jpg",
-				"pantalon-adidas-3.jpg",
-				"pantalon-adidas-4.jpg",
-				"pantalon-adidas-5.jpg"
-			],
-			"currentPrice": 65000,
-			"originalPrice": 179990,
-			"category": "Formal",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1008",
-			"code": "ouKw9DTDB",
-			"name": "Pantalon Formal Gris Oscuro KOAJ Talla 8",
-			"description": "Pantalon Formal Gris Oscuro KOAJ Talla 8",
-			"image": "pantalon-formal-gris-1.jpg",
-			"galleriaImages": [
-				"pantalon-formal-gris-1.jpg",
-				"pantalon-formal-gris-2.jpg",
-				"pantalon-formal-gris-3.jpg",
-				"pantalon-formal-gris-4.jpg",
-				"pantalon-formal-gris-5.jpg"
-			],
-			"currentPrice": 30000,
-			"originalPrice": 80000,
-			"category": "Formal",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
 			"id": "1009",
 			"code": "ouKw9DTDB",
 			"name": "Pantalón Palo de Rosa Calvin Klein Talla 4",
