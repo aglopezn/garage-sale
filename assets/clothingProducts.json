@@ -211,26 +211,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1012",
-			"code": "ouKw9DTDB",
-			"name": "Tacon Negro tipo gamusa marca Colombiana Talla 37",
-			"description": "Tacon Negro tipo gamusa marca Colombiana Talla 37",
-			"image": "tacon-gamusa-1.jpg",
-			"galleriaImages": [
-				"tacon-gamusa-1.jpg",
-				"tacon-gamusa-2.jpg",
-				"tacon-gamusa-3.jpg",
-				"tacon-gamusa-4.jpg"
-			],
-			"currentPrice": 25000,
-			"originalPrice": 69000,
-			"category": "Formal",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
 			"id": "1013",
 			"code": "ouKw9DTDB",
 			"name": "Zapatillas Under Armour Rosa Talla US 7.5",
