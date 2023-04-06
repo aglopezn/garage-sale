@@ -62,29 +62,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1003",
-			"code": "ouKw9DTDB",
-			"name": "Chaqueta en cuero café con capota removible Talla S",
-			"description": "Chaqueta en cuero café con capota removible Talla S",
-			"image": "chaqueta-cuero-cafe-1.jpg",
-			"galleriaImages": [
-				"chaqueta-cuero-cafe-1.jpg",
-				"chaqueta-cuero-cafe-2.jpg",
-				"chaqueta-cuero-cafe-3.jpg",
-				"chaqueta-cuero-cafe-4.jpg",
-				"chaqueta-cuero-cafe-5.jpg",
-				"chaqueta-cuero-cafe-6.jpg",
-				"chaqueta-cuero-cafe-7.jpg"
-			],
-			"currentPrice": 60000,
-			"originalPrice": 150000,
-			"category": "Formal",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
 			"id": "1004",
 			"code": "ouKw9DTDB",
 			"name": "Chaqueta en cuero negra con capota removible Talla S",
@@ -163,27 +140,6 @@
 			],
 			"currentPrice": 60000,
 			"originalPrice": 199000,
-			"category": "Formal",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1010",
-			"code": "ouKw9DTDB",
-			"name": "Chaqueta Rompevientos Rosada Decathlon Talla XS",
-			"description": "Chaqueta Rompevientos Rosada Decathlon Talla XS",
-			"image": "rompevientos-rosa-1.jpg",
-			"galleriaImages": [
-				"rompevientos-rosa-1.jpg",
-				"rompevientos-rosa-2.jpg",
-				"rompevientos-rosa-3.jpg",
-				"rompevientos-rosa-4.jpg",
-				"rompevientos-rosa-5.jpg"
-			],
-			"currentPrice": 30000,
-			"originalPrice": 99000,
 			"category": "Formal",
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
