@@ -1,34 +1,6 @@
 {
 	"data": [
 		{
-			"id": "1022",
-			"code": "ouKw9DTDB",
-			"name": "Bicicleta GW Jaguar Rin 29\"",
-			"description": "GW Jaguar Rin 29\", freno disco mecánico, suspensión con bloqueo, cambios 7x3 Shimano, soporte caramañola GW, candado bicicleta, sillin y pedales GW, Marco talla 19 (L).",
-			"image": "gw-jaguar-main-min.jpg",
-			"galleriaImages": [
-				"gw-jaguar-main-min.jpg",
-				"gw-jaguar-1.jpg",
-				"gw-jaguar-2.jpg",
-				"gw-jaguar-3.jpg",
-				"gw-jaguar-4.jpg",
-				"gw-jaguar-5.jpg",
-				"gw-jaguar-6.jpg",
-				"gw-jaguar-7.jpg",
-				"gw-jaguar-8.jpg",
-				"gw-jaguar-9.jpg",
-				"gw-jaguar-10.jpg",
-				"gw-jaguar-11.jpg"
-			],
-			"currentPrice": 680000,
-			"originalPrice": 900000,
-			"category": "Deportes",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 10
-		},
-		{
 			"id": "1023",
 			"code": "sRr9bLz5S",
 			"name": "Bicicleta Venzo Amphion Rin 29\"",
@@ -57,24 +29,6 @@
 			"priority": 10
 		},
 		{
-			"id": "1009",
-			"code": "cm230f032",
-			"name": "Colchoneta",
-			"description": "Colchoneta tipo yoga para realizar ejercicio en casa color morado. Dimensiones 173x61x1 centímetros",
-			"image": "colchoneta-main-min.jpg",
-			"galleriaImages": [
-				"colchoneta-main-min.jpg",
-				"colchoneta-1-min.jpg"
-			],
-			"currentPrice": 20000,
-			"originalPrice": 55000,
-			"category": "Deportes",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 1
-		},
-		{
 			"id": "1012",
 			"code": "250vm23cc",
 			"name": "Casco Bicicleta Rockrider ST 100",
@@ -89,38 +43,6 @@
 			"originalPrice": 148000,
 			"category": "Deportes",
 			"quantity": 2,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 1
-		},
-		{
-			"id": "1016",
-			"code": "k8l6j58jl",
-			"name": "Casco Moto Abatible ",
-			"description": "Casco para moto abatible con certificación DOT y doble visor marca ICH. Dos unidades disponibles sin utilizar.",
-			"image": "casco-moto-main-min.jpg",
-			"galleriaImages": [
-				"casco-moto-main-min.jpg",
-				"casco-moto-1-min.jpg"
-			],
-			"currentPrice": 85000,
-			"originalPrice": 130000,
-			"category": "Moto",
-			"quantity": 2,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 1
-		},
-		{
-			"id": "1017",
-			"code": "v435nn85n",
-			"name": "Defensa tipo Slider para AKT CR4",
-			"description": "Defensa tipo Slider color verde para AKT CR4 con 1 mes de uso sin golpes.",
-			"image": "slider-moto-main-min.jpg",
-			"currentPrice": 100000,
-			"originalPrice": 140000,
-			"category": "Moto",
-			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 5,
 			"priority": 1
@@ -145,27 +67,6 @@
 			"priority": 8
 		},
 		{
-			"id": "1020",
-			"code": "r23fwf2w3",
-			"name": "Gamer Bundle",
-			"description": "Combo de Teclado, Mouse, Audífonos y Mouse Pad Gamer marca Trust. Distribución de teclado español latinoamérica.",
-			"image": "gamer-bundle-main-min.jpg",
-			"galleriaImages": [
-				"gamer-bundle-main-min.jpg",
-				"gamer-bundle-1-min.jpg",
-				"gamer-bundle-2-min.jpg",
-				"gamer-bundle-3-min.jpg",
-				"gamer-bundle-4-min.jpg"
-			],
-			"currentPrice": 70000,
-			"originalPrice": 130000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 8
-		},
-		{
 			"id": "1024",
 			"code": "JPC1RHko4",
 			"name": "Control para PC Genius",
@@ -182,27 +83,6 @@
 			"inventoryStatus": "Disponible",
 			"rating": 4,
 			"priority": 1
-		},
-		{
-			"id": "1025",
-			"code": "qr6r7fxGj",
-			"name": "Mouse ergonómico Logitech ERGO M575 inalámbrico",
-			"description": "Mouse ergonómico con trackball inalámbrico, conexión bluetooth. Referencia Logitech ERGO M575",
-			"image": "mouse-m575-main.jpg",
-			"galleriaImages": [
-				"mouse-m575-main.jpg",
-				"mouse-m575-1.jpg",
-				"mouse-m575-2.jpg",
-				"mouse-m575-3.jpg",
-				"mouse-m575-4.jpg"
-			],
-			"currentPrice": 140000,
-			"originalPrice": 230000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 8
 		},
 		{
 			"id": "1026",
@@ -320,26 +200,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1038",
-			"code": "n7n1J4iGe",
-			"name": "Teclado Logitech K380 español latinoamerica",
-			"description": "Teclado con 3 configuraciones de bluetooth",
-			"image": "keyboard-main.jpg",
-			"galleriaImages": [
-				"keyboard-main.jpg",
-				"keyboard-1.jpg",
-				"keyboard-2.jpg",
-				"keyboard-3.jpg"
-			],
-			"currentPrice": 130000,
-			"originalPrice": 170000,
-			"category": "Tecnología",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 5,
-			"priority": 8
-		},
-		{
 			"id": "1039",
 			"code": "4iVFAMBbA",
 			"name": "Mouse inalámbrico recargable Logitech MX Anywhere 2S flounder",
@@ -399,63 +259,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1045",
-			"code": "6iVABKLbB",
-			"name": "Mesita de Noche en madera Flormorado",
-			"description": "Mesita de Noche en madera Flormorado",
-			"image": "mesa-noche-main.jpeg",
-			"galleriaImages": [
-				"mesa-noche-main.jpeg",
-				"mesa-noche-1.jpeg"
-			],
-			"currentPrice": 60000,
-			"originalPrice": 100000,
-			"category": "Electronics",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1046",
-			"code": "6iVBBKLbB",
-			"name": "Silla en madera Flormorado",
-			"description": "Silla en madera Flormorado",
-			"image": "silla-main.jpeg",
-			"galleriaImages": [
-				"silla-main.jpeg",
-				"silla-1.jpeg",
-				"silla-2.jpeg"
-			],
-			"currentPrice": 45000,
-			"originalPrice": 75000,
-			"category": "Electronics",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
-			"id": "1047",
-			"code": "65LdlQIMG",
-			"name": "Soporte de pared para TV/Monitor de 32\" a 55\" negro",
-			"description": "Soporte de pared para TV/Monitor de 32\" a 55\" negro",
-			"image": "soporte-tv-main.jpg",
-			"galleriaImages": [
-				"soporte-tv-main.jpg",
-				"soporte-tv-1.jpg",
-				"soporte-tv-2.jpg",
-				"soporte-tv-3.jpg"
-			],
-			"currentPrice": 38000,
-			"originalPrice": 60000,
-			"category": "Tecnologia",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 1
-		},
-		{
 			"id": "1048",
 			"code": "JTBcrvIGW",
 			"name": "Router Cisco Linksys E2000",
@@ -478,24 +281,6 @@
 			"priority": 1
 		},
 		{
-			"id": "1049",
-			"code": "COKMD7der",
-			"name": "Humidificador con escencias incluidas",
-			"description": "Humidificador con escencias incluidas",
-			"image": "humidificador-main.jpg",
-			"galleriaImages": [
-				"humidificador-main.jpg",
-				"humidificador-1.jpg"
-			],
-			"currentPrice": 40000,
-			"originalPrice": 75000,
-			"category": "Tecnologia",
-			"quantity": 1,
-			"inventoryStatus": "Disponible",
-			"rating": 3,
-			"priority": 6
-		},
-		{
 			"id": "1053",
 			"code": "rJL9k5tWC",
 			"name": "Olla a presión Kalley 6 Litros",
@@ -513,8 +298,7 @@
 			"quantity": 1,
 			"inventoryStatus": "Disponible",
 			"rating": 3,
-			"priority": 1
+			"priority": 8
 		}
-		
 	]
 }
